@@ -13,8 +13,25 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+    list-style-type: none;
+
 }
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.mainNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.navList{
+border: 1px solid blue;
+display: flex;
 }

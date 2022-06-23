@@ -1,13 +1,8 @@
-
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />
-// }
-
-// export default MyApp
-
 import '../styles/globals.css'
 import Head from "next/head";
 import Script from "next/script";
+import Navbar from '/pages/navbar.js'
+
 function MyApp({ Component, pageProps }) {
     return (
         <>
@@ -20,6 +15,8 @@ function MyApp({ Component, pageProps }) {
                 integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
                 crossOrigin="anonymous"
             />
+            
+            
             <Component {...pageProps} />
         </>
     );

@@ -1,12 +1,27 @@
+import Link from 'next/link'
+
 export default function Navbar() {
     return (
-            <nav className="navbar bg-light">
-                <div className="container">
-                    <a className="navbar-brand" href="#">
-                        <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
-                    </a>
-                </div>
-            </nav>
-        
+        <nav className="mainNav">
+            <div className="logo">Motiv</div>
+            <ul className="navList">
+                <Link href='/about'><a><li>About</li></a></Link>
+                <Link href='/login'><a><li>Login</li></a></Link>
+                <Link href='/signup'><a><li>Signup</li></a></Link>
+            </ul>
+
+        </nav>
     )
 }
+        // <div>
+        //     <nav className="navbar bg-light">
+        //         <div className="container-fluid">
+        //             <a className="navbar-brand" href="/">Motiv</a>
+        //         </div>
+        //             <ul >
+        //                 <Link href='/about'><a><li>About</li></a></Link>
+        //                 <Link href='/login'><a><li>Login</li></a></Link>
+        //                 <Link href='/signup'><a><li>Signup</li></a></Link>
+        //             </ul>
+        //     </nav>
+        // </div>
