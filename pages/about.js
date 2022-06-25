@@ -1,10 +1,13 @@
-export default function About() {
+import Head from 'next/head'
+import Navbar from '/components/Navbar.js'
+
+export default function Home() {
     return (
         <div>
-            <div className="title">
-                <h1>About Motiv</h1>
-            </div>
-
+            <Head>
+            </Head>
+            <Navbar />
+            <h1>About Motiv</h1>
         </div>
     )
 }
