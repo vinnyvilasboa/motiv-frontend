@@ -3,8 +3,8 @@ body {
     padding: 0;
     text-align: center;
     margin: 0 auto;
-    background: rgb(2,0,36);
-    background: linear-gradient(87deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(254,254,255,1) 15%, rgba(235,245,255,1) 30%, rgba(218,237,255,1) 60%, rgba(161,208,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(87deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 255, 1) 15%, rgba(235, 245, 255, 1) 30%, rgba(218, 237, 255, 1) 60%, rgba(161, 208, 255, 1) 100%);
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -20,8 +20,16 @@ a {
 * {
     box-sizing: border-box;
     padding: 0;
-    
+
 }
 
-
-
+/* //Background// */
+.background {
+    background-image: url(../public/assets/Motive/background/landing.png);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+}

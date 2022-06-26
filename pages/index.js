@@ -4,6 +4,7 @@ import {Container} from 'react-bootstrap'
 import Navbar from '/components/Navbar.js'
 import Link from 'next/link'
 import Image from 'next/image'
+import TopComponent from '../components/TopComponent';
 
 export default function Home() {
     return (
@@ -18,7 +19,7 @@ export default function Home() {
                 />
             </Head>
             <main>
-                <Container><h2>Motiv Home Page</h2> </Container>
+               <TopComponent/>
 
             </main>
             <footer>
