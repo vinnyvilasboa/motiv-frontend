@@ -19,7 +19,11 @@ export default function Home() {
                 />
             </Head>
             <main>
-                <TopComponent />
+            {/* <Navbar/> */}
+            <div className="hero-pg">
+            <TopComponent />
+            </div>
+                
                 {/* <h2>Motiv Home Page</h2> */}
 
             </main>

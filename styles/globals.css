@@ -1,7 +1,6 @@
 html,
 body {
     padding: 0;
-    text-align: center;
     margin: 0 auto;
     background: rgb(2, 0, 36);
     background: linear-gradient(87deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 255, 1) 15%, rgba(235, 245, 255, 1) 30%, rgba(218, 237, 255, 1) 60%, rgba(161, 208, 255, 1) 100%);
@@ -38,8 +37,42 @@ a {
     top: 0px;
 } */
 
+
+/* LANDING */
+
+
+
+.hero-pg{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    border: 1px solid blue;
+    
+}
 .section-top-right{
     border: 1px solid red;
-    height: 50vh;
+    height: 100vh;
     width: 50vw;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+
 }
+.section-top-left{
+    border: 1px solid red;
+    height: 100vh;
+    width: 50vw;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+/* .hero-img{
+    width: 50vw;
+    height: 40vh;
+} */
