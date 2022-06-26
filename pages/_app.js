@@ -2,6 +2,8 @@ import '../styles/globals.css'
 import Head from "next/head";
 import Script from "next/script";
 import Navbar from "/components/Navbar.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function MyApp({ Component, pageProps }) {
     return (
         <>

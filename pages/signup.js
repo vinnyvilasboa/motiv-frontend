@@ -6,6 +6,7 @@ export default function Signup() {
         <div>
             <Head>
             </Head>
+          
             <h1>Sign Up Page</h1>
         </div>
     )
