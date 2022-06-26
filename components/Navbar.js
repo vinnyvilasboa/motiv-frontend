@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#"> 
+                <a className="navbar-brand" href="/"> 
                 <img src="https://i.postimg.cc/8Pq1PHLf/Motiv-Logo-png-removebg-preview-1.png" alt="motiv-logo" />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">

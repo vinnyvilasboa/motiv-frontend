@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container} from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Navbar from '/components/Navbar.js'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -19,7 +19,8 @@ export default function Home() {
                 />
             </Head>
             <main>
-               <TopComponent/>
+                <TopComponent />
+                {/* <h2>Motiv Home Page</h2> */}
 
             </main>
             <footer>
