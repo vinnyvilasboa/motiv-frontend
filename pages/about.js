@@ -6,7 +6,7 @@ export default function Home() {
         <div>
             <Head>
             </Head>
-            <Navbar />
+            {/* <Navbar /> */}
             <h1>About Motiv</h1>
         </div>
     )
