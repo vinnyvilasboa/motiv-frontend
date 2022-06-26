@@ -40,8 +40,6 @@ a {
 
 /* LANDING */
 
-
-
 .hero-pg{
     display: flex;
     justify-content: space-between;
@@ -68,11 +66,24 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     
 }
 
-/* .hero-img{
-    width: 50vw;
-    height: 40vh;
-} */
+/* Network - Landing */
+
+.network-pg{
+height: 100vh;
+width: 100vw;
+}
+
+.network-top{
+    border: 1px solid orange;
+    height: 30vh;
+    min-width: 100%;
+}
+.network-bottom{
+    border: 1px solid orange;
+    height: 70vh;
+    min-width: 100%;
+}

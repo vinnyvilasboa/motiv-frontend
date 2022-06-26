@@ -5,6 +5,7 @@ import Navbar from '/components/Navbar.js'
 import Link from 'next/link'
 import Image from 'next/image'
 import TopComponent from '../components/TopComponent';
+import NetworkComponent from '../components/NetworkComponent';
 
 export default function Home() {
     return (
@@ -23,6 +24,11 @@ export default function Home() {
             <div className="hero-pg">
             <TopComponent />
             </div>
+            <div className="network-pg">
+            <NetworkComponent/>
+            </div>
+
+            
                 
                 {/* <h2>Motiv Home Page</h2> */}
 
