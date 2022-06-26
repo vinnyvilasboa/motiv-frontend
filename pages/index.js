@@ -24,9 +24,9 @@ export default function Home() {
             <div className="hero-pg">
             <TopComponent />
             </div>
-            <div className="network-pg">
+            {/* <div className="network-pg">
             <NetworkComponent/>
-            </div>
+            </div> */}
 
             
                 
