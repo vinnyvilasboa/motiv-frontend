@@ -8,7 +8,7 @@ import ConnectNCAA from '../public/assets/Motive/icons/ConnectNCAA.svg'
 
 
 
-const NetworkComponent = () => {
+const CareerComponent = () => {
     return (
         <> 
             <div className="network-bg">
@@ -70,4 +70,4 @@ const NetworkComponent = () => {
     )
 }
 
-export default NetworkComponent
+export default CareerComponent

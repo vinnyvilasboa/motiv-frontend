@@ -1,3 +1,4 @@
+/* Global */
 html,
 body {
 	padding: 0;
@@ -33,7 +34,7 @@ a {
 	padding: 0;
 }
 
-/* -> Background <- */
+/*  Top Hero Background  */
 .top-background {
 	background-image: url("../public/assets/Motive/background/landing.png");
 	height: 100vh;
@@ -93,7 +94,8 @@ background-size: cover;
 /* Network - Landing */
 .network-bg {
 	background-image: url("../public/assets/Motive/background/Motiv-p2.png");
-	padding-top: 100px;
+	padding-top: 50px;
+    padding-bottom: 50px;
 	/* height: 100vh;
     width: 100vw;
     position: fixed;
@@ -101,7 +103,7 @@ background-size: cover;
     top: 0px; */
 }
 .network-top {
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
 	/* margin: auto 0; */
 	height: 30vh;
 	min-width: 100%;
@@ -126,7 +128,7 @@ background-size: cover;
 }
 
 .network-bottom {
-	border: 1px solid orange;
+	/* border: 1px solid orange; */
 	height: 60vh;
 	min-width: 100%;
 	display: flex;
@@ -139,3 +141,11 @@ background-size: cover;
 	justify-content: center;
 	align-items: start;
 }
+
+.card{
+    background: rgba(0, 151, 19, 0.6);
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.5);
+}
+
+
+
