@@ -92,17 +92,12 @@ background-size: cover;
 }
 
 /* Network - Landing */
-.network-bg {
+.network-bg, .career-bg {
 	background-image: url("../public/assets/Motive/background/Motiv-p2.png");
 	padding-top: 50px;
-    padding-bottom: 50px;
-	/* height: 100vh;
-    width: 100vw;
-    position: fixed;
-    z-index: -1;
-    top: 0px; */
+    padding-bottom: 100px;
 }
-.network-top {
+.network-top, .career-top {
 	/* border: 1px solid orange; */
 	/* margin: auto 0; */
 	height: 30vh;
@@ -113,13 +108,12 @@ background-size: cover;
 	align-items: flex-end;
 }
 
-.network-title {
+.network-title, .career-title {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
 	font-size: 100px;
-	font-weight: 700;
 }
 .network-details {
 	display: flex;
@@ -127,7 +121,7 @@ background-size: cover;
 	align-items: center;
 }
 
-.network-bottom {
+.network-bottom  {
 	/* border: 1px solid orange; */
 	height: 60vh;
 	min-width: 100%;
@@ -147,5 +141,32 @@ background-size: cover;
     box-shadow: 0 15px 25px rgba(129, 124, 124, 0.5);
 }
 
+/* Career */
 
+.career-bottom{
+    border: 1px solid orange;
+    height: 60vh;
+    min-width: 100%;
+    justify-content:center;
+    align-items: center;
+}
 
+/* .career-bottom-container{
+	display: flex;
+    text-align: center;
+	justify-content: center;
+	align-items: center;
+} */
+
+.career-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    color: #263069;
+
+}
+
+.career-right, p{
+    font-size: 20px;
+}

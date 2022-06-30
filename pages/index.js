@@ -24,7 +24,7 @@ export default function Home() {
             <main>
                 <TopComponent />
                 <NetworkComponent />
-                {/* <CareerComponent /> */}
+                <CareerComponent />
             </main>
             <footer>
                 <script src="https://unpkg.com/react/umd/react.production.min.js" async></script>
