@@ -35,12 +35,9 @@ a {
 
 /* -> Background <- */
 .top-background {
-    background-image: url("../public/assets/Motive/background/landing.png");
-    min-height: 100vh;
-    min-width: 100vw;
-    position: fixed;
-    z-index: -1;
-    top: 0px;
+	background-image: url("../public/assets/Motive/background/landing.png");
+	height: 100vh;
+	width: 100vw;
 }
 
 .nav-link {
@@ -71,7 +68,7 @@ background-size: cover;
 .section-top {
 	height: calc(100vh - 80px);
 	width: 100%;
-    display: flex;
+	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 	height: 100%;
@@ -83,60 +80,58 @@ background-size: cover;
 	justify-content: end;
 	align-items: flex-end;
 }
-.section-top-left{
-    height: 100vh;
-    width: 50vw;
-    color: blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    
+.section-top-left {
+	height: 100vh;
+	width: 50vw;
+	color: blue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 /* Network - Landing */
-.network-bg{
-    background-image: url("../public/assets/Motive/background/Motiv-p2.png");
-    padding-top: 100px;
-    /* height: 100vh;
+.network-bg {
+	background-image: url("../public/assets/Motive/background/Motiv-p2.png");
+	padding-top: 100px;
+	/* height: 100vh;
     width: 100vw;
     position: fixed;
     z-index: -1;
     top: 0px; */
 }
-.network-top{
-    border: 1px solid orange;
-    /* margin: auto 0; */
-    height: 30vh;
-    min-width: 100%;
-    color: #263069;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+.network-top {
+	border: 1px solid orange;
+	/* margin: auto 0; */
+	height: 30vh;
+	min-width: 100%;
+	color: #263069;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
 }
 
-.network-title{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+.network-title {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
 	font-size: 100px;
 	font-weight: 700;
 }
-.network-details{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.network-details {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-
-.network-bottom{
-    border: 1px solid orange;
-    height: 60vh;
-    min-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.network-bottom {
+	border: 1px solid orange;
+	height: 60vh;
+	min-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .section-top-left {
 	display: flex;

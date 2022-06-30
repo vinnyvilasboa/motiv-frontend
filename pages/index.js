@@ -20,8 +20,8 @@ export default function Home() {
                 />
             </Head>
             <main>
-            <TopComponent />
-            {/* <NetworkComponent /> */}
+                <TopComponent />
+                <NetworkComponent />
             </main>
             <footer>
                 <script src="https://unpkg.com/react/umd/react.production.min.js" async></script>
