@@ -8,6 +8,7 @@ import TopComponent from "../components/TopComponent";
 import NetworkComponent from "../components/NetworkComponent";
 import CareerComponent from "../components/CareerComponent";
 import PlayerProfile from "../components/PlayerProfile";
+import MessageComponent from "../components/MessageComponent";
 import BottomComponent from "../components/BottomComponent";
 import Footer from "../components/Footer";
 
@@ -28,6 +29,7 @@ export default function Home() {
 				<NetworkComponent />
 				<CareerComponent />
 				<PlayerProfile />
+                <MessageComponent />
 				<BottomComponent />
 			</main>
 			<Footer />

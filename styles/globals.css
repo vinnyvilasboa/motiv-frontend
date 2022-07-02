@@ -213,3 +213,23 @@ p {
     padding-bottom: 100px;
     max-height: 60vh;
 }
+
+/* Message Component */
+
+.message-bg {
+    background-image: url("../public/assets/Motive/background/landing.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.message-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #263069;
+
+}

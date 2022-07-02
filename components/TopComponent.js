@@ -10,7 +10,7 @@ const TopComponent = () => {
         <>
             <div className="top-background">
             <Container fluid>
-                <Row className='section-top'>
+                <Row className='section-top' style={{ display:"flex", alignItems:"center"}}>
                     <Col xs={12} md={6} className='section-top-left'>
                         <div className='p-5'>
                             <h1 className='fw-bold' style={{ fontSize: 70, color: "#263069" }}>Built for</h1>
@@ -22,7 +22,7 @@ const TopComponent = () => {
                         </div>
 
                     </Col>
-                    <Col xs={12} md={6} className='section-top-right'>
+                    <Col xs={12} md={6} className='section-top-right' style={{ display:"flex", alignItems:"center"}} >
                         <Image src={HeroImage} alt="" width={900}
                             height={900} ></Image>
                     </Col>
