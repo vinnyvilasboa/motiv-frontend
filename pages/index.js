@@ -7,7 +7,7 @@ import Image from 'next/image'
 import TopComponent from '../components/TopComponent';
 import NetworkComponent from '../components/NetworkComponent';
 import CareerComponent from '../components/CareerComponent';
-
+import Footer from '../components/Footer';
 
 export default function Home() {
     return (
@@ -26,6 +26,7 @@ export default function Home() {
                 <NetworkComponent />
                 <CareerComponent />
             </main>
+            <Footer />
             <footer>
                 <script src="https://unpkg.com/react/umd/react.production.min.js" async></script>
 
