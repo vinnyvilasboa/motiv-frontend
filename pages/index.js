@@ -7,6 +7,9 @@ import Image from 'next/image'
 import TopComponent from '../components/TopComponent';
 import NetworkComponent from '../components/NetworkComponent';
 import CareerComponent from '../components/CareerComponent';
+import PlayerProfile from '../components/PlayerProfile';
+import BottomComponent from '../components/BottomComponent';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
@@ -25,6 +28,9 @@ export default function Home() {
                 <TopComponent />
                 <NetworkComponent />
                 <CareerComponent />
+                <PlayerProfile/>
+                <BottomComponent />
+                <Footer />
             </main>
             <footer>
                 <script src="https://unpkg.com/react/umd/react.production.min.js" async></script>
