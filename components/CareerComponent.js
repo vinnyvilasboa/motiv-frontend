@@ -12,8 +12,8 @@ const CareerComponent = () => {
                 <Container fluid>
                     <Row className="career-top">
                         <Col ></Col>
-                        <Col xs={8} className="career-title" >
-                            <h1 style={{ fontSize: '2.2rem', paddingBottom: "20px", fontWeight: "700" }}>Motiv recognizes that is it difficult to balance a rigorous schedule and fine time to identify job opportunities</h1>
+                        <Col xs={10} className="career-title" >
+                            <h1 style={{ fontSize: '3.2rem', paddingBottom: "20px", fontWeight: "700" }}>Motiv recognizes that is it difficult to balance a rigorous schedule and fine time to identify job opportunities</h1>
                             <p style={{ fontSize: '1.4rem', paddingLeft: "60px", paddingRight: "60px", paddingBottom: "30px" }}>We aim to bridge the gap between a collegiate athletic career and your next professional journey by bringing opportunities to you.</p>
                         </Col>
                         <Col></Col>
@@ -24,9 +24,9 @@ const CareerComponent = () => {
                                 <Image src={NextCareer} width="900" height="650"></Image>
                             </Col>
                             <Col className="career-right" style={{ paddingTop: "70px", paddingBottom: "70px", paddingRight: "70px" }}>
-                                <h1 style={{ paddingBottom: "20px" }}>Find your Next Career</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                <p>Fugit maxime minus incidunt, deleniti non optio soluta suscipit modi rerum quaerat unde. Quisquam fugiat vero id voluptatem nisi quos officia recusandae!</p>
+                                <h1 style={{ paddingBottom: "20px", fontSize:"3.5rem" }}>Find your Next Career</h1>
+                                <p style={{ fontSize:"1.7rem" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <p style={{ fontSize:"1.7rem" }}>Fugit maxime minus incidunt, deleniti non optio soluta suscipit modi rerum quaerat unde. Quisquam fugiat vero id voluptatem nisi quos officia recusandae!</p>
 
                             </Col>
                         </div>
@@ -38,4 +38,4 @@ const CareerComponent = () => {
     )
 }
 
-export default CareerComponent
+export default CareerComponent;
