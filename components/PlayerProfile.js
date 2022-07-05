@@ -18,7 +18,7 @@ const PlayerProfile = () => {
 
                             </Col>
                             <Col sm={8}className="player-right"  style={{justifyContent:"center", alignItems:"center", margin:"auto 0"}}>
-                                <Image src={PlayerPic} width="1000" height="900"></Image>
+                                <Image src={PlayerPic} alt="Player Landing Picture" width="1000" height="900"></Image>
                             </Col>
                         </div>
                     </Row>

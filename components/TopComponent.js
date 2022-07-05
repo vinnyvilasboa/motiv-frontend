@@ -23,7 +23,7 @@ const TopComponent = () => {
 
                     </Col>
                     <Col xs={12} md={6} className='section-top-right' style={{ display:"flex", alignItems:"center"}} >
-                        <Image src={HeroImage} alt="" width={900}
+                        <Image src={HeroImage} alt="HeroImage" width={900}
                             height={900} ></Image>
                     </Col>
                 </Row>

@@ -21,7 +21,8 @@ const CareerComponent = () => {
                     <Row className="career-bottom">
                         <div className="career-bottom-container" style={{ display: "flex" }}>
                             <Col sm={8}className="career-left">
-                                <Image src={NextCareer} width="900" height="650"></Image>
+                                <Image src={NextCareer} 
+                                alt="Next career image"width="900" height="650"></Image>
                             </Col>
                             <Col sm={4}className="career-right" style={{ paddingTop: "70px", paddingBottom: "70px", paddingRight: "70px" }}>
                                 <h1 style={{ paddingBottom: "20px", fontSize:"3.5rem" }}>Find your Next Career</h1>

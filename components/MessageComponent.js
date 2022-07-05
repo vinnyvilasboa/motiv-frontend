@@ -10,7 +10,7 @@ const MessageComponent = () => {
         <Row className="message-outer" style={{height:"100vh", margin:"auto 0"}}>
             <div className="message-inner-container" style={{display:"flex"}}>
                 <Col sm={8}className="message-left" style={{ display:"flex", alignItems:"center"}}>
-                <Image src={MessagePic} width="1000" height="800vh"></Image>
+                <Image src={MessagePic} alt="message landing pic" width="1000" height="800vh"></Image>
                 </Col>
                 <Col sm={4} className="message-right" style={{marginRight: "20px", justifyContent:"center"}}>
                                 <h1 style={{ paddingBottom: "20px", fontSize:"3.5rem" }}>Message</h1>
