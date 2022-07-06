@@ -6,30 +6,29 @@ import {
 	faLinkedin,
 	faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import styles from "../styles/motivNavbar.module.css";
 
 const Footer = () => {
 	return (
 		<Navbar bg="light" expand="lg">
-			<Container>
-				<Nav.Link href="#home" style={{ fontSize: 14, fontWeight: "400" }}>
+			<Container fluid>
+				<Nav.Link href="#home" className={styles.emailText}>
 					info@joinmotiv.io
 				</Nav.Link>
+				<Navbar.Toggle />
 				<Navbar.Collapse className="justify-content-end">
 					<Nav.Link href="#home">
-						<FontAwesomeIcon icon={faFacebook} style={{ width: "24px" }} />
+						<FontAwesomeIcon icon={faFacebook} className={styles.icon} />
 					</Nav.Link>
 					<Nav.Link href="#home">
-						<FontAwesomeIcon
-							icon={faInstagramSquare}
-							style={{ width: "24px" }}
-						/>
+						<FontAwesomeIcon icon={faInstagramSquare} className={styles.icon} />
 					</Nav.Link>
 
 					<Nav.Link href="#home">
-						<FontAwesomeIcon icon={faLinkedin} style={{ width: "24px" }} />
+						<FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
 					</Nav.Link>
 					<Nav.Link href="#home">
-						<FontAwesomeIcon icon={faTwitter} style={{ width: "24px" }} />
+						<FontAwesomeIcon icon={faTwitter} className={styles.icon} />
 					</Nav.Link>
 				</Navbar.Collapse>
 			</Container>
