@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import Navbar from '/components/Navbar.js'
+import Head from "next/head";
 
 export default function Login() {
-    return (
-        <div>
-            <Head>
-            </Head>
-            
-            <h1>Login Page</h1>
-        </div>
-    )
+	return (
+		<div>
+			<Head>
+				<title>Login</title>
+			</Head>
+
+			<h1>Login Page</h1>
+		</div>
+	);
 }
