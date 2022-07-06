@@ -35,7 +35,7 @@ const NetworkComponent = () => {
                                 </div>
 
                             </Col>
-                            <Col sx={6} className="network-details">
+                            <Col className="network-details">
                                 <div className="card" style={{ width: "18rem", textAlign: "center", borderRadius: "25px" }}>
                                     <div className="card-img-top" style={{ width: "100%", height: "100%", textAlign: "center" }}>
                                         <Image src={SharePlayer}
