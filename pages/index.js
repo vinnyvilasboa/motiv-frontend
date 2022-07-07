@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
+
 import TwoColumn, { TextColumn } from "../components/TwoColumn";
 import HeroComponent from "../components/HeroComponent";
 import NetworkComponent from "../components/NetworkComponent";
@@ -19,8 +20,9 @@ export default function Home() {
 				<title>Motiv App</title>
 			</Head>
 			<main>
-				<HeroComponent />
+				{/* <HeroComponent /> */}
 				<NetworkComponent />
+
 				<Container fluid className="text-center">
 					<Row>
 						<h1 className={styles.sectionTitle}>

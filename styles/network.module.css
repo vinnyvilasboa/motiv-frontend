@@ -1,0 +1,45 @@
+.iconsCenter {
+    height: 50vh;
+}
+
+.iconCol{
+    min-height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconCard{
+    width: 18rem;
+    height: 18rem;
+    color: #263069;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;;
+    padding: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+	
+    .iconCol{
+        min-height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+    .iconCard{
+        width: 18rem;
+        height: 18rem;
+        color: #263069;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 10px;;
+        padding: 20px;
+    }
+    
+    
+
+}
+
