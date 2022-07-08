@@ -80,63 +80,9 @@ a {
 }
 
 /* Network - Landing */
-.network-bg,
-.career-bg {
-	background-image: url("../public/assets/Motive/background/Motiv-p2.png");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-top: 50px;
-	padding-bottom: 100px;
-}
 
-.network-top {
-	/* border: 1px solid orange; */
-	/* margin: auto 0; */
-	height: 30vh;
-	min-width: 100%;
-	color: #263069;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-}
 
-.network-title,
-.career-title {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	align-items: center;
-	font-size: 100px;
-}
 
-.network-details {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.network-bottom {
-	/* border: 1px solid orange; */
-	height: 60vh;
-	min-width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.section-top-left {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: start;
-}
-
-.card {
-	background: rgba(0, 151, 19, 0.6);
-	box-shadow: 0 15px 25px rgba(129, 124, 124, 0.5);
-}
 
 /* Career */
 

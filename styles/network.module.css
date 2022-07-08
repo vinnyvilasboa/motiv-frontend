@@ -1,45 +1,82 @@
+/* .networkBG
+{
+	background-image: url("../public/assets/Motive/background/Motiv-p2.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+} */
+
 .iconsCenter {
     height: 50vh;
-}
-
-.iconCol{
-    min-height: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.iconCard{
-    width: 18rem;
-    height: 18rem;
-    color: #263069;
-    font-size: 12px;
-    text-align: center;
-    border-radius: 10px;;
-    padding: 20px;
+    
+    /* justify-content: flex-start; */
+
 }
 
+/* .icons{
+    
+    border-radius: 50%;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  20px 20px 40px #dbdbdb,
+                 -20px -20px 40px #ffffff;
+} */
+
+.iconCol {
+    border-top: 1px solid red;
+    flex-grow: 1;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+
+}
+
+.iconText, .subtext {
+    display: flex;
+    font-size: 1.5rem;
+    flex-shrink: 1;
+    text-align: center;
+    padding: 20px 40px 0 40px;
+}
+
+.subtext{
+    font-size: 1rem;
+    padding: 0 60px 0 60px;;
+}
 
 
 @media (max-width: 768px) {
-	
-    .iconCol{
+    .iconsCenter {
+        height: 100%;
+        display: flex;
+        padding-bottom: 40px;
+    }
+
+    .iconCol {
         min-height: 50%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space;
         align-items: center;
-        padding: 20px;
+        /* padding: 20px; */
     }
-    .iconCard{
-        width: 18rem;
-        height: 18rem;
-        color: #263069;
-        font-size: 12px;
-        text-align: center;
-        border-radius: 10px;;
-        padding: 20px;
+
+    .icons {
+        width: 50%;
+        height: 50%;
+        flex-shrink: 1;
     }
-    
-    
+    .subtext{
+        display: none;
+    }
+
+
+
+
 
 }
-
