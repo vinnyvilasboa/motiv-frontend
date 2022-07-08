@@ -1,8 +1,4 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card'
-import Figure from 'react-bootstrap/Figure'
-import FigureImage from 'react-bootstrap/FigureImage'
-import FigureCaption from 'react-bootstrap/FigureCaption'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import styles from "../styles/network.module.css";
 import SignupIcon from '../public/assets/Motive/icons/SignupIcon.svg'
@@ -48,8 +44,8 @@ const NetworkComponent = () => {
                             
                             <Image 
                             src={require("../public/assets/Motive/icons/SignupIcon.svg").default.src}
-                            width={100}
-                            height={100}
+                            width={150}
+                            height={150}
                             className={styles.icons}/>
                              <h3 className={styles.iconText}>Sign Up <br/> With Your Univerisity Email</h3>
                              <p className={styles.subtext} >lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipis</p>
@@ -59,8 +55,8 @@ const NetworkComponent = () => {
                         <Col sm={4} className={styles.iconCol}>
                         <Image 
                             src={require("../public/assets/Motive/icons/SharePlayer.svg").default.src}
-                            width={100}
-                            height={100}
+                            width={150}
+                            height={150}
                             className={styles.icons}/>
                               <h3 className={styles.iconText}>Share Your <br /> "Player Profile Card"</h3>
                               <p className={styles.subtext} >lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipis</p>
@@ -69,8 +65,8 @@ const NetworkComponent = () => {
                         <Col sm={4} className={styles.iconCol}>
                         <Image 
                             src={require("../public/assets/Motive/icons/ConnectNCAA.svg").default.src}
-                            width={100}
-                            height={100}
+                            width={150}
+                            height={150}
                             className={styles.icons}/>
                               <h3 className={styles.iconText}>Connect <br/> with Other NCAA athletes</h3>
                               <p className={styles.subtext} >lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipis</p>
@@ -97,7 +93,7 @@ export default NetworkComponent
         <div className="network-container" style={{display:"flex"}}>
             <Col className="network-details">
                 <div className="card" style={{ width: "18rem", textAlign: "center", borderRadius: "25px" }}>
-                    <div className="card-img-top" style={{ width: "100%", height: "100%", textAlign: "center" }}>
+                    <div className="card-img-top" style={{ width: "150%", height: "150%", textAlign: "center" }}>
                         <Image src={SignupIcon}
                             alt="SIGNUP ICON"
                             width={120} height={120} />
@@ -111,7 +107,7 @@ export default NetworkComponent
             </Col>
             <Col className="network-details">
                 <div className="card" style={{ width: "18rem", textAlign: "center", borderRadius: "25px" }}>
-                    <div className="card-img-top" style={{ width: "100%", height: "100%", textAlign: "center" }}>
+                    <div className="card-img-top" style={{ width: "150%", height: "150%", textAlign: "center" }}>
                         <Image src={SharePlayer}
                             alt="SIGNUP ICON"
                             width={120} height={120} />
@@ -124,7 +120,7 @@ export default NetworkComponent
             </Col>
             <Col className="network-details">
                 <div className="card" style={{ width: "18rem", textAlign: "center", borderRadius: "25px" }}>
-                    <div className="card-img-top" style={{ width: "100%", height: "100%", textAlign: "center" }}>
+                    <div className="card-img-top" style={{ width: "150%", height: "150%", textAlign: "center" }}>
                         <Image src={ConnectNCAA}
                             alt="SIGNUP ICON"
                             width={120} height={120} />
