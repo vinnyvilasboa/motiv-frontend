@@ -1,5 +1,6 @@
 import Head from "next/head";
-import NetworkComponent from "../components/NetworkComponent";
+// import NetworkComponent from "../components/NetworkComponent";
+import HeroComponent from "../components/HeroComponent";
 
 export default function Home() {
 	return (
@@ -7,7 +8,7 @@ export default function Home() {
 			<Head>
 				<title>About Motiv</title>
 			</Head>
-			<NetworkComponent />
+			<HeroComponent />
 		</div>
 	);
 }

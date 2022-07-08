@@ -19,6 +19,7 @@ export default function Home() {
                 <title>Motiv App</title>
             </Head>
             <main>
+                <HeroComponent/>
                 <div className={styles.networkBG}>
 
                     <Container fluid className="text-center">
@@ -48,7 +49,7 @@ export default function Home() {
                     <Container fluid >
                         <Row className={styles.iconsCenter}>
                             <Col sm={4} md={4} className={styles.iconCol}>
-
+            
                                 <Image
                                     src={require("../public/assets/Motive/icons/SignupIcon.svg").default.src}
                                     width={100}

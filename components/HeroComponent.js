@@ -4,14 +4,15 @@ import { Container, Row, Col } from "react-bootstrap";
 import HeroImage from "../public/assets/Motive/icons/HeroNew.png";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import Image from "next/image";
+import styles from "../styles/hero.module.css";
 
 export default function HeroComponent() {
 	return (
 		<>
-			<div className="top-background">
+			<div className="top-background" >
 				<Container fluid>
 					<Row
-						className="section-top"
+						className={styles.sectionTop}
 						style={{ display: "flex", alignItems: "center" }}
 					>
 						<Col xs={12} md={6} className="section-top-left">
@@ -54,13 +55,13 @@ export default function HeroComponent() {
 							</div>
 						</Col>
 						<Col
-							xs={12}
 							md={6}
-							className="section-top-right"
-							style={{ display: "flex", alignItems: "center" }}
+							
+							style={{ display: "flex", alignItems: "flex-start" }}
 						>
 							<Image
-								className="hero-image"
+								className={styles.heroImage}
+								// src={require("../public/assets/Motive/icons/HeroNew.png").default.src}
 								src={HeroImage}
 								alt="HeroImage"
 								width={900}

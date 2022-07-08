@@ -61,7 +61,7 @@
 .sectionTitle {
 	font-size: 3.7rem !important;
     font-weight: 400;
-    margin: 10px 10px 35px 10px;
+    margin: 20px 10px 35px 10px;
     color: #263069;
 
 }
@@ -72,11 +72,17 @@
     color: #263069;
 
 }
+.icons{
+    min-height: 100px;
+    min-width: 100px;
+
+
+}
 
 
 .iconCol {
     flex-grow: 1;
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -86,10 +92,10 @@
 .iconText,
 .subtext {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1rem;
     flex-shrink: 1;
     text-align: center;
-    padding: 20px 40px 0 40px;
+    padding: 0px 40px 0 40px;
 }
 
 .subtext {
@@ -125,7 +131,9 @@
         font-family: 'Lora', serif;
         font-family: 'Playfair Display', serif;
         font-family: 'Poppins', sans-serif;
-        font-weight: 700;
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2.5rem;;
     }
 
     .subtext {
