@@ -20,12 +20,24 @@ const NetworkComponent = () => {
 
                 <Container fluid className="text-center">
                     <Row>
-                        <h1 className={styles.sectionTitle} style={{fontSize:"2.5rem"}}>Get Started and Grow your Network</h1>
+                    <Col></Col>
+                        <Col md={6}>
+                        <h1 className={styles.sectionTitle} >Get Started and Grow your Network</h1>
+                        </Col>
+					
+                        <Col></Col>
+                        
                     </Row>
                     <Row>
-                        <p className="styles sectionText">
+                    <Col></Col>
+                        <Col md={4}>
+                        <p className={styles.sectionText}>
                             Motiv's Profile creation process is fast and easy
                         </p>
+                        </Col>
+					
+                        <Col></Col>
+                        
                     </Row>
 
 

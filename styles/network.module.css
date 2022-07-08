@@ -1,18 +1,32 @@
-/* .networkBG
-{
-	background-image: url("../public/assets/Motive/background/Motiv-p2.png");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	
-} */
+.networkBG {
+    background-image: url("../public/assets/Motive/background/Motiv-p2.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 
 .iconsCenter {
-    height: 50vh;
+    height: 40vh;
     display: flex;
-    
-    /* justify-content: flex-start; */
+    align-items: center;
+    margin-bottom: 150px;
+
+
+}
+.sectionTitle {
+	font-size: 3.7rem !important;
+    font-weight: 400;
+    margin: 10px 10px 35px 10px;
+    color: #263069;
+
+}
+
+.sectionText {
+	font-size: 1.5rem;
+    font-weight: 350;
+    color: #263069;
 
 }
 
@@ -25,19 +39,19 @@
 } */
 
 .iconCol {
-    border-top: 1px solid red;
     flex-grow: 1;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
+
     /* flex-wrap: wrap; */
 
 }
 
-.iconText, .subtext {
+.iconText,
+.subtext {
     display: flex;
     font-size: 1.5rem;
     flex-shrink: 1;
@@ -45,9 +59,10 @@
     padding: 20px 40px 0 40px;
 }
 
-.subtext{
+.subtext {
     font-size: 1rem;
-    padding: 0 60px 0 60px;;
+    padding: 0 60px 0 60px;
+    ;
 }
 
 
@@ -55,7 +70,7 @@
     .iconsCenter {
         height: 100%;
         display: flex;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
     }
 
     .iconCol {
@@ -63,7 +78,7 @@
         display: flex;
         justify-content: space;
         align-items: center;
-        /* padding: 20px; */
+        margin: 20px 0 20px 0;
     }
 
     .icons {
@@ -71,8 +86,18 @@
         height: 50%;
         flex-shrink: 1;
     }
-    .subtext{
+
+    .iconText {
+        color: rgb(153, 153, 153);
+        font-family: 'Lora', serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+
+    .subtext {
         display: none;
+        
     }
 
 

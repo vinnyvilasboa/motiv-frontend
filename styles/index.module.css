@@ -1,9 +1,16 @@
 .sectionTitle {
-	font-size: 3.5rem !important;
+	font-size: 3rem !important;
+    font-weight: 1000;
+    margin-bottom: 35px;
+    color: #263069;
+
 }
 
 .sectionText {
 	font-size: 1.5rem;
+    font-weight: 350;
+    color: #263069;
+
 }
 
 .footerHeader {

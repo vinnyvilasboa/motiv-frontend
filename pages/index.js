@@ -25,16 +25,26 @@ export default function Home() {
 
 				<Container fluid className="text-center">
 					<Row>
-						<h1 className={styles.sectionTitle}>
+                        <Col></Col>
+                        <Col md={8}>
+                        <h1 className={styles.sectionTitle}>
 							Motiv recognizes that is it difficult to balance a rigorous
 							schedule and find time to identify job opportunities.
 						</h1>
+                        </Col>
+					
+                        <Col></Col>
 					</Row>
 					<Row>
-						<p className={styles.sectionText}>
+                    <Col></Col>
+                        <Col md={6}>
+                        <p className={styles.sectionText}>
 							We aim to bridge the gap between a collegiate athletic career and
 							your next professional journey by bringing opportunities to you.
 						</p>
+                        </Col>
+                        <Col></Col>
+						
 					</Row>
 				</Container>
 				{/* Find Your Next Career section */}
