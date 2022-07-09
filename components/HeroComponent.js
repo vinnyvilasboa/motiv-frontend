@@ -16,7 +16,7 @@ export default function HeroComponent() {
 						style={{ display: "flex", alignItems: "center" }}
 					>
 						<Col xs={12} md={6} className="section-top-left">
-							<div className="p-5">
+							<div className="px-5">
 								<h1
 									className="fw-bold"
 									style={{ fontSize: 70, color: "#263069" }}
@@ -46,7 +46,8 @@ export default function HeroComponent() {
 										className="btn btn-primary btn-lg active"
 										style={{
 											background: "#5C8CEE",
-											boxShadow: "2px 2px 6px black",
+											boxShadow: "1px 1px 6px gray",
+                                            border: "1px none"
 										}}
 									>
 										Get Started <i className="fa fa-arrow-right"></i>
@@ -61,7 +62,6 @@ export default function HeroComponent() {
 						>
 							<Image
 								className={styles.heroImage}
-								// src={require("../public/assets/Motive/icons/HeroNew.png").default.src}
 								src={HeroImage}
 								alt="HeroImage"
 								width={900}
