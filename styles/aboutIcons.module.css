@@ -1,0 +1,81 @@
+.HeroAboutContainer {
+	border: 1px solid red;
+	height: 70vh;
+}
+
+.HeroAboutRow {
+	border: 1px solid black;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.HeroAboutCol {
+	/* border: 1px solid blue; */
+	height: 33vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.heroIconsContainer {
+	border-radius: 50%;
+	background: #ffffff;
+	box-shadow: 6px 6px 39px #cccccc, -6px -6px 39px #ffffff;
+	min-width: 100px;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0 10px 0;
+}
+
+.heroText {
+	font-size: 1.5rem;
+	color: #263069;
+	font-weight: 700;
+}
+
+.heroSubtext {
+	font-size: 1rem;
+	/* margin: 0 15px 10px 15px; */
+	color: #263069;
+}
+
+.heroDate {
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+	.heroIconsContainer {
+		border-radius: 50%;
+		background: #ffffff;
+		box-shadow: 6px 6px 39px #cccccc, -6px -6px 39px #ffffff;
+		min-width: 100px;
+		min-height: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px 0 10px 0;
+	}
+
+	.HeroAboutContainer {
+		border: 1px solid red;
+		height: 100%;
+	}
+	.AboutHeroIcons {
+		max-width: 50px;
+		max-height: 50px;
+	}
+
+	.heroText {
+		font-size: 1.5rem;
+	}
+
+	.heroSubtext {
+		font-size: 0.7rem;
+		margin: 0 15px 0 15px;
+	}
+}

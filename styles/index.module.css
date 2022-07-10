@@ -1,16 +1,112 @@
-.sectionTitle {
-	font-size: 3rem !important;
-    font-weight: 1000;
-    margin-bottom: 35px;
-    color: #263069;
-
+/* NETWORK */
+.networkBG {
+	background-image: url("../public/assets/Motive/background/Motiv-p2.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
+/* .icons {
+	width: 300px;
+	height: 300px;
+} */
+
+.iconsCenter {
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	margin-bottom: 150px;
+}
+
+.networkTitle {
+	font-size: 4rem !important;
+	font-weight: 400;
+	margin: 20px 10px 35px 10px;
+	color: #263069;
+}
 .sectionText {
 	font-size: 1.5rem;
-    font-weight: 350;
-    color: #263069;
+	font-weight: 350;
+	color: #263069;
+}
+.icons {
+	min-height: 100px;
+	min-width: 100px;
+}
 
+.iconCol {
+	flex-grow: 1;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.iconText,
+.subtext {
+	display: flex;
+	font-size: 1rem;
+	flex-shrink: 1;
+	text-align: center;
+	padding: 0px 40px 0 40px;
+}
+
+.subtext {
+	font-size: 1rem;
+	padding: 0 60px 0 60px;
+}
+@media (max-width: 768px) {
+	.iconsCenter {
+		height: 100%;
+		display: flex;
+		padding-bottom: 0px;
+	}
+
+	.iconCol {
+		min-height: 50%;
+		display: flex;
+		justify-content: space;
+		align-items: center;
+		margin: 20px 0 20px 0;
+	}
+
+	.icons {
+		width: 50%;
+		height: 50%;
+		flex-shrink: 1;
+	}
+
+	.iconText {
+		color: rgb(153, 153, 153);
+		font-family: "Lora", serif;
+		font-family: "Playfair Display", serif;
+		font-family: "Poppins", sans-serif;
+		font-weight: 600;
+		font-size: 1.7rem;
+		line-height: 2.5rem;
+	}
+
+	.subtext {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.footerHeaderSubtitle {
+		font-size: 1.1rem;
+		max-width: 90vw;
+	}
+
+	.sectionTitle {
+		font-size: 2rem !important;
+		padding: 20px;
+	}
+	.sectionText {
+		font-size: 1.2rem !important;
+		padding: 15px 30px 15px 30px;
+	}
 }
 
 .footerHeader {
@@ -33,134 +129,4 @@
 	font-size: 1.4rem;
 	max-width: 50vw;
 	margin: 0 auto;
-}
-
-/* NETWORK */
-.networkBG {
-    background-image: url("../public/assets/Motive/background/Motiv-p2.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-
-.icons{
-    width: 300px;
-    height: 300px;
-}
-
-.iconsCenter {
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    margin-bottom: 150px;
-
-
-}
-.sectionTitle {
-	font-size: 3.7rem !important;
-    font-weight: 400;
-    margin: 20px 10px 35px 10px;
-    color: #263069;
-
-}
-
-.sectionText {
-	font-size: 1.5rem;
-    font-weight: 350;
-    color: #263069;
-
-}
-.icons{
-    min-height: 100px;
-    min-width: 100px;
-
-
-}
-
-
-.iconCol {
-    flex-grow: 1;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.iconText,
-.subtext {
-    display: flex;
-    font-size: 1rem;
-    flex-shrink: 1;
-    text-align: center;
-    padding: 0px 40px 0 40px;
-}
-
-.subtext {
-    font-size: 1rem;
-    padding: 0 60px 0 60px;
-    ;
-}
-
-
-@media (max-width: 768px) {
-    .iconsCenter {
-        height: 100%;
-        display: flex;
-        padding-bottom: 0px;
-    }
-
-    .iconCol {
-        min-height: 50%;
-        display: flex;
-        justify-content: space;
-        align-items: center;
-        margin: 20px 0 20px 0;
-    }
-
-    .icons {
-        width: 50%;
-        height: 50%;
-        flex-shrink: 1;
-    }
-
-    .iconText {
-        color: rgb(153, 153, 153);
-        font-family: 'Lora', serif;
-        font-family: 'Playfair Display', serif;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 1.7rem;
-        line-height: 2.5rem;;
-    }
-
-    .subtext {
-        display: none;
-        
-    }
-
-
-
-
-
-}
-
-@media (max-width: 768px) {
-	.footerHeaderSubtitle {
-		font-size: 1.1rem;
-		max-width: 90vw;
-	}
-
-    
-    .sectionTitle {
-        font-size: 2rem !important;
-        padding: 20px;
-    }
-    .sectionText {
-        font-size: 1.2rem !important;
-        padding: 15px 30px 15px 30px;
-    }
-
 }

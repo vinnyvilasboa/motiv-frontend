@@ -1,0 +1,62 @@
+.missionContainer {
+	font-size: 16px;
+	background: #f8f9fa;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+.missionTitle {
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	color: #5688f0;
+}
+
+.missionContainer > p {
+	color: #263069;
+	margin-bottom: 15px;
+}
+
+.statBannerRow {
+	width: 80vw;
+	color: white;
+	margin: 0 auto;
+}
+
+.statBannerCol {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	padding-left: 65px;
+}
+
+.statBannerCol > span > h1 {
+	font-size: 80px;
+}
+
+.statBannerCol > span > p {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.footerHeader {
+	background-image: url("../public/assets/Motive/background/Motiv-Dark.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+.footerHeaderTitle {
+	font-size: 2.1rem;
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+
+.footerHeaderSubtitle {
+	font-size: 1.4rem;
+	max-width: 50vw;
+	margin: 0 auto;
+}

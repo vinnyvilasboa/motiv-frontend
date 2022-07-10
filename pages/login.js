@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutIcons from "../components/AboutIcons";
 
 export default function Login() {
 	return (
@@ -7,7 +8,7 @@ export default function Login() {
 				<title>Login</title>
 			</Head>
 
-			<h1>Login Page</h1>
+			<AboutIcons />
 		</div>
 	);
 }

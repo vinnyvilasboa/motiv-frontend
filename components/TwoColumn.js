@@ -3,7 +3,7 @@ import styles from "../styles/twoColumn.module.css";
 
 export function TextColumn({ title, children, style }) {
 	return (
-		<div className={styles.textContainer}>
+		<div style={style} className={styles.textContainer}>
 			<h1 className={styles.title}>{title}</h1>
 			<span className={styles.paragraph}>{children}</span>
 		</div>
@@ -15,9 +15,11 @@ export default function TwoColumn({
 	rightColumn,
 	leftColumnWidth,
 	rightColumnWidth,
+	style,
+	className,
 }) {
 	return (
-		<Container fluid>
+		<Container fluid style={style} className={className}>
 			<Row>
 				<Col md={leftColumnWidth} xs={{ span: 12, order: 12 }}>
 					{leftColumn}
