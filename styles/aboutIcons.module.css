@@ -49,18 +49,6 @@
 }
 
 @media (max-width: 768px) {
-	.heroIconsContainer {
-		border-radius: 50%;
-		background: #ffffff;
-		box-shadow: 6px 6px 39px #cccccc, -6px -6px 39px #ffffff;
-		min-width: 100px;
-		min-height: 100px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin: 10px 0 10px 0;
-	}
-
 	.HeroAboutContainer {
 		border: 1px solid red;
 		height: 100%;
