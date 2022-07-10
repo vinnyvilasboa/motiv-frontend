@@ -51,7 +51,7 @@ export default function Home() {
 				<Container fluid style={{ background: "white" }} className="pb-5">
 					<Row>
 						<Col md={{ offset: 1 }}>
-							<h1 className={textSectionStyles.title}>Our Mission</h1>
+							<h1 className={textSectionStyles.title} style={{paddingTop:"50px"}}>Our Mission</h1>
 						</Col>
 					</Row>
 					<TwoColumn
@@ -134,9 +134,9 @@ export default function Home() {
 					title="Meet the team"
 					subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a est maximus, semper libero quis, finibus ligula."
 				/>
-				<Container fluid style={{ marginBottom: 100, width: "50vw" }}>
-					<Row >
-						<Col xs={12} md={6}>
+				<Container fluid style={{ marginBottom: 100, width: "100%", display:"flex", flexDirection: "column", alignItems: "center",justifyContent: "center" }}>
+					<Row  >
+						<Col xs={12} md={6} className={styles.personCol}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Team 1.png").default.src
@@ -147,7 +147,7 @@ export default function Home() {
                                 
 							/>
 						</Col>
-						<Col xs={12} md={6}>
+						<Col xs={12} md={6} className={styles.personCol}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Team 2.png").default.src
@@ -157,8 +157,8 @@ export default function Home() {
 							/>
 						</Col>
 					</Row>
-					<Row >
-						<Col xs={12} md={6}>
+					<Row style={{ display:"flex", alignItems: "center",justifyContent: "center" }}>
+						<Col xs={12} md={6} className={styles.personCol}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Team 3.png").default.src
@@ -167,7 +167,7 @@ export default function Home() {
 								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
 							/>
 						</Col>
-						<Col xs={12} md={6}>
+						<Col xs={12} md={6} className={styles.personCol}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Team 4.png").default.src

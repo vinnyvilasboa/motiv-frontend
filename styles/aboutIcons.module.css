@@ -52,7 +52,7 @@
 
 @media (max-width: 768px) {
     .HeroAboutCol {
-       margin-bottom: 5px;
+       margin-bottom: 100px;
     }
 
 	.HeroAboutContainer {
@@ -70,5 +70,6 @@
 
 	.heroSubtext {
 		font-size: 1.1rem;
+        margin-bottom: 15px;;
 	}
 }
