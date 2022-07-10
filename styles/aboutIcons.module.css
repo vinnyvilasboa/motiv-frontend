@@ -1,10 +1,11 @@
 .HeroAboutContainer {
-	border: 1px solid red;
-	height: 70vh;
+	/* border: 1px solid red; */
+	height: 50vh;
+    /* margin-bottom: 100px;; */
 }
 
 .HeroAboutRow {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -17,6 +18,7 @@
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
+    
 }
 
 .heroIconsContainer {
@@ -39,7 +41,7 @@
 
 .heroSubtext {
 	font-size: 1rem;
-	/* margin: 0 15px 10px 15px; */
+	margin: 0 10px 0px 10px;
 	color: #263069;
 }
 
@@ -49,9 +51,13 @@
 }
 
 @media (max-width: 768px) {
+    .HeroAboutCol {
+       margin-bottom: 5px;
+    }
+
 	.HeroAboutContainer {
-		border: 1px solid red;
 		height: 100%;
+
 	}
 	.AboutHeroIcons {
 		max-width: 50px;
@@ -63,7 +69,6 @@
 	}
 
 	.heroSubtext {
-		font-size: 0.7rem;
-		margin: 0 15px 0 15px;
+		font-size: 1.1rem;
 	}
 }

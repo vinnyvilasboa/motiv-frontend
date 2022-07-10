@@ -62,6 +62,7 @@ export default function HeroComponent() {
 						>
 							<Image
 								className={styles.heroImage}
+                                style={{}}
 								src={HeroImage}
 								alt="HeroImage"
 								width={900}

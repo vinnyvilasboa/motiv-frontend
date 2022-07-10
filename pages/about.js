@@ -1,7 +1,5 @@
 import Head from "next/head";
-// import NetworkComponent from "../components/NetworkComponent";
-import HeroComponent from "../components/HeroComponent";
-// import AboutIcons from "../components/AboutIcons";
+import AboutIcons from "../components/AboutIcons";
 import TwoColumn from "../components/TwoColumn";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
 import TextSection from "../components/TextSection";
@@ -12,6 +10,7 @@ import textSectionStyles from "../styles/textSection.module.css";
 
 function PersonCard({ src, name, description }) {
 	return (
+
 		<Card
 			style={{
 				width: 360,
@@ -40,6 +39,15 @@ export default function Home() {
 				<title>About Us</title>
 			</Head>
 			<main>
+            <Container fluid style={{ background: "white" }} className="pb-5">
+					<Row>
+						<Col md={{ offset: 1 }}>
+							<h1 className={textSectionStyles.title}>This is Motiv</h1>
+							<p className={textSectionStyles.subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a est maximus, semper libero quis, finibus ligula. Vivamus accumsan leo in dui varius, ac sollicitudin felis rutrum. Pellentesque elementum iaculis sapien ac posuere.</p>
+						</Col>
+					</Row>
+                <AboutIcons/>
+                </Container>
 				<Container fluid style={{ background: "white" }} className="pb-5">
 					<Row>
 						<Col md={{ offset: 1 }}>
@@ -87,7 +95,7 @@ export default function Home() {
 						}
 						className="mb-5"
 					/>
-					<Container fluid>
+					{/* <Container fluid>
 						<Row className={styles.statBannerRow}>
 							<Col
 								xs={4}
@@ -120,24 +128,26 @@ export default function Home() {
 								</span>
 							</Col>
 						</Row>
-					</Container>
+					</Container> */}
 				</Container>
 				<TextSection
 					title="Meet the team"
 					subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a est maximus, semper libero quis, finibus ligula."
 				/>
 				<Container fluid style={{ marginBottom: 100, width: "50vw" }}>
-					<Row>
-						<Col md={6}>
+					<Row >
+						<Col xs={12} md={6}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Team 1.png").default.src
 								}
 								name="Danny Romanello"
 								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
+                                style={{margin:"10px"}}
+                                
 							/>
 						</Col>
-						<Col md={6}>
+						<Col xs={12} md={6}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Team 2.png").default.src
@@ -147,8 +157,8 @@ export default function Home() {
 							/>
 						</Col>
 					</Row>
-					<Row>
-						<Col md={6}>
+					<Row >
+						<Col xs={12} md={6}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Team 3.png").default.src
@@ -157,7 +167,7 @@ export default function Home() {
 								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
 							/>
 						</Col>
-						<Col md={6}>
+						<Col xs={12} md={6}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Team 4.png").default.src
