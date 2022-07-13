@@ -1,4 +1,5 @@
 import Head from "next/head";
+import SignupCard from "../components/SignupCard"
 
 export default function Signup() {
 	return (
@@ -6,7 +7,7 @@ export default function Signup() {
 			<Head>
 				<title> Sign Up</title>
 			</Head>
-			<h1>Sign Up Page</h1>
+			<SignupCard/>
 		</div>
 	);
 }

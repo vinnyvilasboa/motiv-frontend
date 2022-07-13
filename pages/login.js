@@ -1,5 +1,5 @@
 import Head from "next/head";
-import AboutIcons from "../components/AboutIcons";
+import LoginCard from "../components/LoginCard";
 
 export default function Login() {
 	return (
@@ -7,8 +7,7 @@ export default function Login() {
 			<Head>
 				<title>Login</title>
 			</Head>
-
-			<AboutIcons />
+            <LoginCard/>
 		</div>
 	);
 }
