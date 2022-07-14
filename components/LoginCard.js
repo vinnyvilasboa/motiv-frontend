@@ -2,6 +2,8 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Container, Row, Col, Image } from "react-bootstrap";
+import Link from "next/link"
+
 // import Image from "next/image";
 
 
@@ -38,7 +40,7 @@ const LoginCard = () => {
                                     </div>
                                 </Form>
                                 <Form.Text className="text-muted">
-                                    Don't have a Motiv account? <a href="/signup">Login</a>
+                                    Don't have a Motiv account? <Link href="/signup">Sign Up</Link>
                                 </Form.Text>
                             </Col>
                             
