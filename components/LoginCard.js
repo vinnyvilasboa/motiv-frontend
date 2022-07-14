@@ -35,7 +35,7 @@ const LoginCard = () => {
                                     </Form.Group>
                                     <div className="d-grid gap-2" size="lg">
                                         <Button variant="primary" type="submit">
-                                            Let's Get Started
+                                            Login
                                         </Button>
                                     </div>
                                 </Form>
