@@ -1,12 +1,28 @@
 .title {
-	font-size: 3.7rem !important;
+	font-size: 3.2rem;
 	font-weight: 400;
 	margin: 20px 10px 35px 10px;
 	color: #263069;
+
 }
 
 .subtitle {
 	font-size: 1.5rem;
 	font-weight: 350;
 	color: #263069;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 20px 10px 35px 10px;
+        color: #263069;
+    
+    }
+    .subtitle {
+        font-size: 1.5rem;
+        font-weight: 350;
+        color: #263069;
+    }
 }

@@ -22,10 +22,12 @@ export default function Home() {
 			<main>
 				<HeroComponent />
 				<div className={styles.networkBG}>
+               
 					<TextSection
 						title="Get Started and Grow your Network"
 						subtitle="Motiv's Profile creation process is fast and easy"
 					/>
+                   
 					<Container fluid>
 						<Row className={styles.iconsCenter}>
 							<Col sm={4} md={4} className={styles.iconCol}>
@@ -86,7 +88,8 @@ export default function Home() {
 					</Container>
 				</div>
 				{/* <NetworkComponent /> */}
-				<TextSection
+                <div className={styles.careerBG}>
+				<TextSection 
 					title="Motiv recognizes that is it difficult to balance a rigorous schedule and find time to identify job opportunities."
 					subtitle="We aim to bridge the gap between a collegiate athletic career and your next professional journey by bringing opportunities to you."
 				/>
@@ -112,8 +115,10 @@ export default function Home() {
 								quos officia recusandae!
 							</p>
 						</TextColumn>
+                       
 					}
 				/>
+                </div>
 				{/* Player Profile Section */}
 				<TwoColumn
 					leftColumnWidth={6}
