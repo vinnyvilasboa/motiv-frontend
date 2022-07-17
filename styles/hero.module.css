@@ -1,10 +1,13 @@
+.heroImage{
+    flex-shrink: 1;
+}
 
+@media(max-width: 768px) {
 
-@media(max-width: 768px){
-    .heroImage{
-        display: none;
-        max-width: 30%;
-        max-height: 30%;
+    .topBackground {
+        height: 100vh;
+        display: flex;
+        align-items: center;
     }
- 
+  
 }

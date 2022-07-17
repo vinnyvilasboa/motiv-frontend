@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import HeroImage from "../public/assets/Motive/icons/HeroNew.png";
+import HeroImage from "../public/assets/Motive/img/Simple-Motiv-hero.png";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import Image from "next/image";
 import styles from "../styles/hero.module.css";
@@ -9,14 +9,14 @@ import styles from "../styles/hero.module.css";
 export default function HeroComponent() {
 	return (
 		<>
-			<div className="top-background" >
+			<div className={styles.topBackground} style={{background:"white"}}>
 				<Container fluid>
 					<Row
 						className={styles.sectionTop}
-						style={{ display: "flex", alignItems: "center" }}
+						style={{ display: "flex", alignItems: "center", height:"100vh" }}
 					>
 						<Col xs={12} md={6} className="section-top-left">
-							<div className="px-5">
+							<div className="px-5" >
 								<h1
 									className="fw-bold"
 									style={{ fontSize: 70, color: "#263069" }}
@@ -56,17 +56,17 @@ export default function HeroComponent() {
 							</div>
 						</Col>
 						<Col
-							md={6}
+							sm={12} md={6} className="d-none d-md-block"
 							
 							style={{ display: "flex", alignItems: "flex-start" }}
 						>
 							<Image
 								className={styles.heroImage}
-                                style={{}}
+                                
 								src={HeroImage}
 								alt="HeroImage"
-								width={900}
-								height={900}
+								width={1000}
+								height={700}
 							></Image>
 						</Col>
 					</Row>
