@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Link from "next/link"
+import RadioEmployer from "./RadioEmployer"
 
 // import Image from "next/image";
 
@@ -20,6 +21,7 @@ const SignupCard = () => {
                             <Col>
                                 <Form style={{ margin: "0 0 10px 0"}} >
                                     <h1 style={{ margin: "30px 0 30px 0", fontSize: "1.5rem", color: "#263069", fontWeight: "700" }}>Create Your Free Account</h1>
+                                    <RadioEmployer/>
                                     <Form.Group className="mb-3" controlId="formBasicName">
                                         <Form.Label>Your Full Name</Form.Label>
                                         <Form.Control type="text" placeholder="Alex Jones..." />

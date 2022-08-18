@@ -175,6 +175,13 @@
     margin: 0 auto;
 }
 
+/*SWITCH*/
+
+/* #custom-switch {
+    color: red;
+    padding: 10px;
+} */
+
 
 @media (max-width: 768px) {
     .footerHeaderSubtitle {
