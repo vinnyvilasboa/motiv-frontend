@@ -1,14 +1,21 @@
 import Link from "next/link";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import Image from "next/image";
-import MotivLogo from "../public/assets/Motive/icons/logo-removebg.png";
+import MotivLogo from "../public/assets/Motive/icons/MOTIV-NEW-2.png";
 
 export default function MotivNavbar() {
 	return (
 		<Navbar bg="light" expand="lg" collapseOnSelect>
 			<Container fluid>
 				<Navbar.Brand>
-					<Image src={MotivLogo} alt="Motiv Logo" />
+                <Link href="/" passHref>
+					<Image 
+                    src={MotivLogo} 
+                    alt="Motiv Logo"
+                    width={150}
+					height={50}   
+                    />
+					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle />
 				<Navbar.Collapse className="justify-content-end">
