@@ -5,7 +5,7 @@ import MotivLogo from "../public/assets/Motive/icons/logo-removebg.png";
 
 export default function MotivNavbar() {
 	return (
-		<Navbar bg="light" expand="lg">
+		<Navbar bg="light" expand="lg" collapseOnSelect>
 			<Container fluid>
 				<Navbar.Brand>
 					<Image src={MotivLogo} alt="Motiv Logo" />

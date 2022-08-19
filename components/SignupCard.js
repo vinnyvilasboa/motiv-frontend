@@ -1,5 +1,3 @@
-import RadioEmployer from './RadioEmployer';
-
 import { useState } from "react";
 import {
 	Container,
@@ -21,6 +19,7 @@ const SignupCard = () => {
 	const [name, setName] = useState(null);
 	const [email, setEmail] = useState(null);
 	const [password, setPassword] = useState(null);
+	const [isEmployer, setIsEmployer] = useState(false);
 	const [loading, setLoading] = useState(false);
 	const [errorText, setErrorText] = useState(null);
 	const [signupSuccess, setSignupSuccess] = useState(false);
@@ -34,6 +33,7 @@ const SignupCard = () => {
 		if (email.length < 5) return setErrorText("Email address is too short.");
 		if (!email.includes("@") || !email.includes("."))
 			return setErrorText("Email address is invalid.");
+		if (!email.endsWith(".edu")) return setErrorText("Must be an .edu email.");
 		if (password.length < 8)
 			return setErrorText("Password must be at least 8 characters long.");
 		setLoading(true);
@@ -42,7 +42,7 @@ const SignupCard = () => {
 			headers: {
 				"Content-Type": "application/json",
 			},
-			body: JSON.stringify({ name, email, password }),
+			body: JSON.stringify({ name, email, password, isEmployer }),
 		})
 			.then((res) => {
 				if (res.status === 200) {
@@ -60,6 +60,7 @@ const SignupCard = () => {
 				);
 			})
 			.finally(() => setLoading(false));
+		setLoading(false);
 	};
 	return (
 		<Container fluid style={{ height: "100vh" }} className="p-5">
@@ -89,9 +90,7 @@ const SignupCard = () => {
 					<Container>
 						<Row>
 							<Col>
-                                
 								<Form style={{ margin: "0 0 10px 0" }}>
-                                
 									<h1
 										style={{
 											margin: "30px 0 30px 0",
@@ -142,9 +141,16 @@ const SignupCard = () => {
 											Your password must be at least 8 characters long.
 										</Form.Text>
 									</Form.Group>
-                                {/* ---> Radio for employer option */}
-                                <RadioEmployer/>
-                                {/* ---> Radio for employer option */}
+									{/* ---> Radio for employer option */}
+									<Form.Check
+										type="switch"
+										id="custom-switch"
+										label="Are You An Employer?"
+										style={{ paddingBottom: "10px" }}
+										value={isEmployer}
+										onChange={(e) => setIsEmployer(!isEmployer)}
+									/>
+									{/* ---> Radio for employer option */}
 									{/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
 										<Form.Check type="checkbox" label="Remember Me" />
 									</Form.Group> */}
