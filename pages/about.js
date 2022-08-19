@@ -39,19 +39,19 @@ export default function Home() {
 				<title>About Us</title>
 			</Head>
 			<main>
-            <Container fluid style={{ background: "white" }} className="pb-5">
+				<Container fluid style={{ background: "white" }} className="pb-5">
 					<Row>
 						<Col md={{ offset: 1 }}>
 							<h1 className={textSectionStyles.title}>This is Motiv</h1>
 							<p className={textSectionStyles.subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a est maximus, semper libero quis, finibus ligula. Vivamus accumsan leo in dui varius, ac sollicitudin felis rutrum. Pellentesque elementum iaculis sapien ac posuere.</p>
 						</Col>
 					</Row>
-                <AboutIcons/>
-                </Container>
+					<AboutIcons />
+				</Container>
 				<Container fluid style={{ background: "white" }} className="pb-5">
 					<Row>
 						<Col md={{ offset: 1 }}>
-							<h1 className={textSectionStyles.title} style={{paddingTop:"50px"}}>Our Mission</h1>
+							<h1 className={textSectionStyles.title} style={{ paddingTop: "50px" }}>Our Mission</h1>
 						</Col>
 					</Row>
 					<TwoColumn
@@ -134,7 +134,7 @@ export default function Home() {
 					title="Meet the team"
 					subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a est maximus, semper libero quis, finibus ligula."
 				/>
-				<Container fluid style={{ marginBottom: 100, width: "100%", display:"flex", flexDirection: "column", alignItems: "center",justifyContent: "center" }}>
+				<Container fluid style={{ marginBottom: 100, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
 					<Row  >
 						<Col xs={12} md={6} className={styles.personCol}>
 							<PersonCard
@@ -143,8 +143,8 @@ export default function Home() {
 								}
 								name="Danny Romanello"
 								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
-                                style={{margin:"10px"}}
-                                
+								style={{ margin: "10px" }}
+
 							/>
 						</Col>
 						<Col xs={12} md={6} className={styles.personCol}>
@@ -157,7 +157,7 @@ export default function Home() {
 							/>
 						</Col>
 					</Row>
-					<Row style={{ display:"flex", alignItems: "center",justifyContent: "center" }}>
+					<Row style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 						<Col xs={12} md={6} className={styles.personCol}>
 							<PersonCard
 								src={
@@ -185,19 +185,23 @@ export default function Home() {
 					<p className={styles.footerHeaderSubtitle}>
 						We’re always looking for smart and talented people to join our team.
 					</p>
-					<button
-						type="button"
-						className="btn btn-primary btn-lg active"
-						style={{
-							background: "white",
-							color: "#243374",
-							padding: 20,
-							marginTop: 30,
-							border: "1px none",
-						}}
-					>
-						Join our team <i className="fa fa-arrow-right"></i>
-					</button>
+					<a href="mailto:motiv@joinmotiv.io?subject=Career%20Opportunity">
+						<button
+							type="button"
+							className="btn btn-primary btn-lg active"
+							style={{
+								background: "white",
+								color: "#243374",
+								padding: 20,
+								marginTop: 30,
+								border: "1px none",
+							}}
+						>
+							Join our team <i className="fa fa-arrow-right"></i>
+						</button>
+					</a>
+
+
 				</Container>
 			</main>
 			<Footer />
