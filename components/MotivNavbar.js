@@ -18,9 +18,9 @@ export default function MotivNavbar() {
 					<Link href="/about" passHref>
 						<Nav.Link>About</Nav.Link>
 					</Link>
-					<Link href="/login" passHref>
+					{/* <Link href="/login" passHref>
 						<Nav.Link>Login</Nav.Link>
-					</Link>
+					</Link> */}
 					<Link href="/signup" passHref>
 						<Nav.Link>Signup</Nav.Link>
 					</Link>

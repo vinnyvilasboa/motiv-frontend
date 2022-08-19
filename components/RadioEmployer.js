@@ -6,7 +6,8 @@ function RadioEmployer() {
       <Form.Check 
         type="switch"
         id="custom-switch"
-        label="Are you an employer?"
+        label="Are You An Employer?"
+        style={{paddingBottom: '10px'}}
       />
     </Form>
   );
