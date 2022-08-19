@@ -33,7 +33,8 @@ const SignupCard = () => {
 		if (email.length < 5) return setErrorText("Email address is too short.");
 		if (!email.includes("@") || !email.includes("."))
 			return setErrorText("Email address is invalid.");
-		if (!email.endsWith(".edu")) return setErrorText("Must be an .edu email.");
+		if (!isEmployer && !email.endsWith(".edu"))
+			return setErrorText("Must be an .edu email.");
 		if (password.length < 8)
 			return setErrorText("Password must be at least 8 characters long.");
 		setLoading(true);
