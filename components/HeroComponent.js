@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import HeroImage from "../public/assets/Motive/img/Simple-Motiv-hero.png";
+import HeroImage from "../public/assets/Motive/img/hero-10.png";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import Image from "next/image";
 import styles from "../styles/hero.module.css";
@@ -66,7 +66,7 @@ export default function HeroComponent() {
 								src={HeroImage}
 								alt="HeroImage"
 								width={1000}
-								height={700}
+								height={900}
 							></Image>
 						</Col>
 					</Row>
