@@ -77,8 +77,8 @@ const SignupCard = () => {
 				<Col
 					xs={12}
 					sm={8}
-					md={6}
-					lg={8}
+					md={8}
+					lg={6}
 					style={{
 						display: "flex",
 						justifyCenter: "center",
@@ -170,8 +170,11 @@ const SignupCard = () => {
 										</Button>
 									</div>
 								</Form>
-								<Form.Text className="text-muted">
+								{/* <Form.Text className="text-muted">
 									Already have a Motiv account? <Link href="/login">Login</Link>
+								</Form.Text> */}
+                                <Form.Text className="text-muted">
+									Motiv's <Link href="/privacy">Privacy Policy</Link>
 								</Form.Text>
 							</Col>
 							{/* <Col>

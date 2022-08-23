@@ -44,53 +44,6 @@ a {
 
 
 
-/*  Top Hero Background  */
-/* .top-background {
-	background-image: url("../public/assets/Motive/background/landing.png");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 100vh;
-	width: 100vw;
-}
-
-.nav-link {
-	color: #263069 !important;
-	font-size: 1.2rem;
-	font-weight: 700;
-} */
-
-/* LANDING */
-
-/* .section-top {
-	height: calc(100vh - 80px);
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	height: 100%;
-	width: 100%;
-} */
-
-/* .section-top-right {
-	display: flex;
-    	align-items: flex-start;
-} */
-/* 
-.section-top-left {
-	height: 100vh;
-	width: 50vw;
-	color: blue;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-} */
-
-/* Network - Landing */
-
-
 
 
 /* Career */
@@ -186,19 +139,3 @@ p {
 	justify-content: flex-start;
 	color: #263069;
 }
-
-/* Media Queries */
-
-/* @media (max-width: 576px) {
-    .network-container{
-        flex-direction: column;
-    }
-    .card{
-        max-width: 12rem;
-        max-height:6rem;
-    }
-    .section-top-right Image{
-        max-height:400px;
-        max-width: 400px;
-    }
-} */

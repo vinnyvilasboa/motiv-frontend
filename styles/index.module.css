@@ -1,157 +1,168 @@
 /* BG */
 .networkBG {
     background-image: url("../public/assets/Motive/background/Motiv-BG-2.svg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 .careerBG {
     background-image: url("../public/assets/Motive/background/Motiv-BG-2.svg");
     background-image: url("../public/assets/Motive/background/Motiv-p2.png");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-/* .icons {
-	width: 300px;
-	height: 300px;
-} */
+
 
 .iconsCenter {
-	height: 80vh;
-	display: flex;
-	align-items: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
 }
 
 .networkTitle {
-	font-size: 3.5rem !important;
-	font-weight: 400;
-	margin: 20px 10px 35px 10px;
-	color: #263069;
+    font-size: 3.5rem !important;
+    font-weight: 400;
+    margin: 20px 10px 35px 10px;
+    color: #263069;
 }
+
 .sectionText {
-	font-size: 1.5rem;
-	font-weight: 350;
-	color: #263069;
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: #263069;
 }
+
 .icons {
-	min-height: 100px;
-	min-width: 100px;
+    min-height: 100px;
+    min-width: 100px;
 }
 
 .iconCol {
-	flex-grow: 1;
-	height: 250px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
+    flex-grow: 1;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .iconText,
 .subtext {
-	display: flex;
-	font-size: 1rem;
-	flex-shrink: 1;
-	text-align: center;
-	padding: 0px 40px 0 40px;
+    display: flex;
+    font-size: 1rem;
+    flex-shrink: 1;
+    text-align: center;
+    padding: 0px 40px 0 40px;
 }
 
 .subtext {
-	font-size: 1rem;
-	padding: 0 60px 0 60px;
+    font-size: 1rem;
+    padding: 0 60px 0 60px;
 }
+
 @media (max-width: 768px) {
-	.iconsCenter {
-		height: 100%;
-		display: flex;
-		padding-bottom: 0px;
-	}
+    .iconsCenter {
+        height: 100%;
+        display: flex;
+        padding-bottom: 0px;
+    }
 
-	.iconCol {
-		min-height: 50%;
-		display: flex;
-		justify-content: space;
-		align-items: center;
-		margin: 20px 0 20px 0;
-	}
+    .iconCol {
+        min-height: 50%;
+        display: flex;
+        justify-content: space;
+        align-items: center;
+        margin: 20px 0 20px 0;
+    }
 
-	.icons {
-		width: 50%;
-		height: 50%;
-		flex-shrink: 1;
-	}
+    .icons {
+        width: 50%;
+        height: 50%;
+        flex-shrink: 1;
+    }
 
-	.iconText {
-		color: rgb(153, 153, 153);
-		font-family: "Lora", serif;
-		font-family: "Playfair Display", serif;
-		font-family: "Poppins", sans-serif;
-		font-weight: 600;
-		font-size: 1.7rem;
-		line-height: 2.5rem;
-	}
+    .iconText {
+        color: rgb(153, 153, 153);
+        font-family: "Lora", serif;
+        font-family: "Playfair Display", serif;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
 
-	.subtext {
-		display: none;
-	}
+    .subtext {
+        display: none;
+    }
 }
 
 /* Network Icons */
 
-.networkContainer{
-    height: 50vh;
+.networkContainer {
+    min-height: 50vh;
 }
 
 .networkRow {
-	/* border: 1px solid black; */
-	height: 100%;
-	display: flex;
-	align-items: center;
-    justify-content: space-around;
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
 .networkCol {
-	/* border: 1px solid blue; */
-	height: 100%;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	text-align: center;
-    padding:20px;
-    
+    border-radius: 24px;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 0px #fcfcfc,
+                inset -5px -5px 0px #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-shrink: 1;
+    margin: 0 10px 0 10px
 }
 
 .networkIconsContainer {
-	border-radius: 50%;
-	background: #ffffff;
-	box-shadow: 6px 6px 39px #cccccc, -6px -6px 39px #ffffff;
-	min-width: 100px;
-	min-height: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 10px 0 10px 0;
+    border-radius: 50%;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 6px 6px 39px #cccccc, -6px -6px 39px #ffffff;
+    min-width: clamp(50px, 100px, 125px);
+    min-height: clamp(50px, 100px, 125px);
+    flex-shrink: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
 }
 
 .networkText {
-	font-size: 1.5rem;
-	color: #263069;
-	font-weight: 700;
-    margin: 20px 10px 20px 10px;
-   
+    font-size: clamp(12px, 1.5rem, 5rem);
+    color: #263069;
+    font-weight: 700;
+    margin: 30px 15px 0px 15px;
     display: flex;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
+    line-height: 150%;
 }
 
 .networkSubtext {
-	font-size: 1rem;
-	margin: 0 10px 0px 10px;
-	color: #263069;
+    font-size: clamp(12px, .9rem, 20px);
+    margin: 10px 40px 0 40px;
+    color: #263069;
+
 }
+
 /* Footer Header */
 .footerHeader {
     background-image: url("../public/assets/Motive/background/Motiv-Dark.png");
@@ -163,6 +174,7 @@
     padding-bottom: 100px;
     color: white;
 }
+
 .footerHeaderTitle {
     font-size: 2.1rem;
     padding-bottom: 20px;
@@ -188,87 +200,95 @@
         font-size: 1.4rem;
         margin: 10px
     }
-    .topNetwokTitle{
+
+    .topNetwokTitle {
         font-size: 3rem !important;
+        color: red;
     }
 
-    .networkRow{
-        padding-bottom: 100px; 
+    .networkRow {
+        padding-bottom: 100px;
     }
+
     .networkCol {
-       margin-bottom: 30px;
-       display: flex;
+        margin-bottom: 30px;
+        display: flex;
         align-items: center;
         justify-content: center;
     }
 
-	.networkContainer {
-		height: 100%;
+    .networkContainer {
+        height: 100%;
 
-	}
-	.networkIcons {
-		max-width: 50px;
-		max-height: 50px;
-       
-	}
-    .networkIconsContainer{
-        margin: 30px;
     }
 
-	.networkText {
-		font-size: 1.4rem;
+    .networkIcons {
+        max-width: 50px;
+        max-height: 50px;
+
+    }
+
+    .networkIconsContainer {
+        margin: 30px;
+        
+    }
+
+    .networkText {
+        font-size: 1.4rem;
         font-weight: 400;
         margin: 20px 40px 20px 40px;
-        
-        
-	}
 
-	.networkSubtext {
-		display: none;
-	}
+
+    }
+
+    .networkSubtext {
+        display: none;
+    }
 }
 
 
 @media (max-width: 768px) {
     .HeroAboutCol {
-       margin-bottom: 100px;
+        margin-bottom: 100px;
     }
 
-	.HeroAboutContainer {
-		height: 100%;
+    .HeroAboutContainer {
+        height: 100%;
 
-	}
-	.AboutHeroIcons {
-		max-width: 50px;
-		max-height: 50px;
-	}
+    }
 
-	.heroText {
-		font-size: 1.5rem;
+    .AboutHeroIcons {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .heroText {
+        font-size: 1.5rem;
         line-height: 1.7;
-	}
+    }
 
-	.heroSubtext {
-		font-size: 1.1rem;
-        margin-bottom: 15px;;
-        	}
+    .heroSubtext {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        ;
+    }
 }
 
 
 @media (max-width: 768px) {
-	.footerHeaderSubtitle {
-		font-size: 1.1rem;
-		max-width: 90vw;
-	}
+    .footerHeaderSubtitle {
+        font-size: 1.1rem;
+        max-width: 90vw;
+    }
 
-	.sectionTitle {
-		font-size: 2rem !important;
-		padding: 20px;
-	}
-	.sectionText {
-		font-size: 1.2rem !important;
-		padding: 15px 30px 15px 30px;
-	}
-   
+    .sectionTitle {
+        font-size: 2rem !important;
+        padding: 20px;
+    }
+
+    .sectionText {
+        font-size: 1.2rem !important;
+        padding: 15px 30px 15px 30px;
+    }
+
 }
-

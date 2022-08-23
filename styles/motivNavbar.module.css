@@ -4,5 +4,10 @@
 }
 
 .icon {
-	width: 24px;
+	width: 30px;
+}
+@media (max-width: 768px){
+    .icon {
+        width: 24px;
+    }
 }

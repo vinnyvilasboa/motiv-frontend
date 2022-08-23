@@ -24,15 +24,14 @@ export default function Home() {
                 <div className={styles.networkBG}>
 
                     <TextSection
-                        className={styles.topNetwokTitle}
                         title="Get Started and Grow your Network"
                         subtitle="Motiv's Profile creation process is fast and easy"
                     />
 
                     <Container fluid className={styles.networkContainer}>
-                        <Row className={styles.networkRow}>
+                        <Row className={styles.networkRow} style={{marginTop:"20px"}}>
                             {/* 1 */}
-                            <Col xs={12} sm={6} md={3} className={styles.networkCol}>
+                            <Col xs={12} sm={8} md={4} lg={3} className={styles.networkCol}>
                                 <div className={styles.networkIconsContainer}>
                                     <Image
                                         src={
@@ -50,7 +49,7 @@ export default function Home() {
                                 </p>
                             </Col>
                             {/* 2 */}
-                            <Col xs={12} sm={6} md={3} className={styles.networkCol}>
+                            <Col xs={12} sm={8} md={4} lg={3}  className={styles.networkCol}>
                                 <div className={styles.networkIconsContainer}>
                                     <Image
                                         src={
@@ -69,7 +68,7 @@ export default function Home() {
                                 </p>
                             </Col>
                             {/* 3 */}
-                            <Col xs={12} sm={6} md={3} className={styles.networkCol}>
+                            <Col xs={12} sm={8} md={4} lg={3}  className={styles.networkCol}>
                                 <div className={styles.networkIconsContainer}>
                                     <Image
                                         src={
@@ -93,10 +92,12 @@ export default function Home() {
                 {/* <NetworkComponent /> */}
                 <div className={styles.careerBG}>
                     <TextSection
+                        
                         title="Motiv recognizes that is it difficult to balance a rigorous schedule and find time to identify job opportunities."
                         subtitle="We aim to bridge the gap between a collegiate athletic career and your next professional journey by bringing opportunities to you."
                     />
                     {/* Find Your Next Career section */}
+                    <Row></Row>
                     <TwoColumn
                         leftColumnWidth={8}
                         leftColumn={
@@ -135,6 +136,7 @@ export default function Home() {
                                 officia recusandae!
                             </p>
                         </TextColumn>
+                        
                     }
                     rightColumnWidth={6}
                     rightColumn={
@@ -168,6 +170,7 @@ export default function Home() {
                             </p>
                         </TextColumn>
                     }
+                    
                 />
                 </div>
                 {/* Footer Header Section */}
