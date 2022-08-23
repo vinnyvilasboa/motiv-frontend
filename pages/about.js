@@ -163,7 +163,7 @@ export default function Home() {
 								src={
 									require("../public/assets/Motive/img/Team 3.png").default.src
 								}
-								name="Samantha William"
+								name="Jane Doe"
 								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
 							/>
 						</Col>

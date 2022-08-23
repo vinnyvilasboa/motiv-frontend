@@ -104,7 +104,7 @@
 /* Network Icons */
 
 .networkContainer {
-    min-height: 50vh;
+    min-height: 100%;
 }
 
 .networkRow {
@@ -117,11 +117,12 @@
 }
 
 .networkCol {
-    border-radius: 24px;
-    background: #ffffff;
-    box-shadow: inset 5px 5px 0px #fcfcfc,
-                inset -5px -5px 0px #ffffff;
-    height: 100%;
+    border-radius: 23px;
+background: #ffffff;
+box-shadow:  5px 5px 64px #666666,
+             -5px -5px 64px #ffffff;
+    height: clamp(40vh,45vh,40vh);
+    width: clamp(40vh,45vh,40vh);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -129,7 +130,7 @@
     text-align: center;
     padding: 20px;
     flex-shrink: 1;
-    margin: 0 10px 0 10px
+    margin: 10px 10px 40px 10px;
 }
 
 .networkIconsContainer {
