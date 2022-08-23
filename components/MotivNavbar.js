@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import Image from "next/image";
-import MotivLogo from "../public/assets/Motive/icons/MOTIV-NEW-2.png";
+import MotivLogo from "../public/assets/Motive/icons/MOTIV-NEW-3.svg";
 
 export default function MotivNavbar() {
 	return (
