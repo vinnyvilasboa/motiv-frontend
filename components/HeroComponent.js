@@ -13,7 +13,7 @@ export default function HeroComponent() {
 				<Container fluid>
 					<Row
 						className={styles.sectionTop}
-						style={{ display: "flex", alignItems: "center", height:"100vh" }}
+						style={{ display: "flex", alignItems: "center", height:"100%" }}
 					>
 						<Col xs={12} md={6} className="section-top-left">
 							<div className="px-5" >
@@ -56,13 +56,12 @@ export default function HeroComponent() {
 							</div>
 						</Col>
 						<Col
-							sm={12} md={6} className="d-none d-md-block"
-							
+							sm={12} md={6} lg={5}
+							className="d-none d-md-block pt-5 pb-5"
 							style={{ display: "flex", alignItems: "flex-start" }}
 						>
 							<Image
 								className={styles.heroImage}
-                                
 								src={HeroImage}
 								alt="HeroImage"
 								width={1000}

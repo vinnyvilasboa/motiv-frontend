@@ -5,7 +5,7 @@
 .title {
 	font-size: 3.2rem;
 	font-weight: 400;
-	margin: 20px 10px 35px 10px;
+	margin: 20px 10px 50px 10px;
 	color: #263069;
 
 }
@@ -14,6 +14,8 @@
 	font-size: 1.5rem;
 	font-weight: 350;
 	color: #263069;
+    margin: 20px 10px 100px 10px;
+
 }
 
 @media (max-width: 768px) {
