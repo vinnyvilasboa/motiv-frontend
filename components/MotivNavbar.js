@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import Image from "next/image";
-import MotivLogo from "../public/assets/Motive/icons/MOTIV-NEW-3.svg";
+import MotivLogo from "../public/assets/Motive/icons/Logo_Motiv.png";
 
 export default function MotivNavbar() {
 	return (
@@ -12,8 +12,8 @@ export default function MotivNavbar() {
 					<Image 
                     src={MotivLogo} 
                     alt="Motiv Logo"
-                    width={150}
-					height={50}   
+                    width={200}
+					height={40}   
                     />
 					</Link>
 				</Navbar.Brand>
