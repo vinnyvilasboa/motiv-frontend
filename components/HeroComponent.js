@@ -35,6 +35,7 @@ export default function HeroComponent() {
 										marginTop: 15,
 										marginBottom: 30,
 										color: "#263069",
+                                        lineHeight: "150%"
 									}}
 								>
 									Motiv is a job marketplace created by student athletes for

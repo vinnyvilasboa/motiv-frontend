@@ -18,6 +18,8 @@ export default function Home() {
         <>
             <Head>
                 <title>Motiv App</title>
+                <link rel="icon" href="/favicon.ico" />
+
             </Head>
             <main>
                 <HeroComponent />
