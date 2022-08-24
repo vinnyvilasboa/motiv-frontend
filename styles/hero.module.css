@@ -5,7 +5,7 @@
 @media(max-width: 768px) {
 
     .topBackground {
-        height: 85vh;
+        height: 80vh;
         max-width:100%;
         display: flex;
         align-items: center;
