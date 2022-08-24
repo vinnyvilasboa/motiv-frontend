@@ -15,8 +15,8 @@ export default function HeroComponent() {
 						className={styles.sectionTop}
 						style={{ display: "flex", alignItems: "center", height:"100%" }}
 					>
-						<Col xs={12} md={6} className="section-top-left">
-							<div className="px-5" >
+						<Col xs={12} md={6} className="section-top-left" >
+							<div className="mx-5" >
 								<h1
 									className="fw-bold"
 									style={{ fontSize: 70, color: "#263069" }}

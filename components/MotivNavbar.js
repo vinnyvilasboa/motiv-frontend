@@ -10,6 +10,7 @@ export default function MotivNavbar() {
 				<Navbar.Brand>
                 <Link href="/" passHref>
 					<Image 
+                    className="motiv-logo"
                     src={MotivLogo} 
                     alt="Motiv Logo"
                     width={200}
