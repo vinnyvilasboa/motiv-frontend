@@ -5,11 +5,11 @@
 @media(max-width: 768px) {
 
     .topBackground {
-        height: 100vh;
+        height: 95vh;
         max-width:100%;
         display: flex;
         align-items: flex-start;
-        margin-top: 40px;
+        margin-top: 45px;
     }
     .sectionTopLeft{
         display: flex;
