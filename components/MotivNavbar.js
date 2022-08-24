@@ -13,8 +13,8 @@ export default function MotivNavbar() {
                     className="motiv-logo"
                     src={MotivLogo} 
                     alt="Motiv Logo"
-                    width={200}
-					height={40}   
+                    width={120}
+					height={25}   
                     />
 					</Link>
 				</Navbar.Brand>
