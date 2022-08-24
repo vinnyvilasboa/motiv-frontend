@@ -16,7 +16,7 @@ export default function HeroComponent() {
 						style={{ display: "flex", alignItems: "center", justifyContent: "center", height:"100%" }}
 					>
 						<Col xs={12} md={6}>
-							<div className={'pr-5'}>
+							<div className={'mx-4'}>
 								<h1
 									className="fw-bold"
 									style={{ fontSize: 70, color: "#263069" }}
