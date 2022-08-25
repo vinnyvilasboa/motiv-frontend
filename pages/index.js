@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Motiv App</title>
+                <title>Motiv ®</title>
                 <link rel="icon" href="/favicon.ico" />
 
             </Head>
