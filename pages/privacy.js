@@ -14593,11 +14593,11 @@ function privacy() {
                                                     }}
                                                     href='https://termly.io/products/privacy-policy-generator/'
                                                   >
-                                                    Privacy Policy Generator
+                                                     -- Privacy Policy Generator
                                                   </a>
                                                   .
                                                 </div>
-                                                m
+                                                
                                               </div>
                                             </div>
                                           </div>
