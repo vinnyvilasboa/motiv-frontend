@@ -9,7 +9,7 @@ export default function Signup() {
 				<title> Sign Up</title>
 			</Head>
 			<SignupCard/>
-            <BlankFooter/>
+            {/* <BlankFooter/> */}
 		</div>
 	);
 }
