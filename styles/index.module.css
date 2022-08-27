@@ -1,6 +1,6 @@
 /* BG */
 .networkBG {
-    background-image: url("../public/assets/Motive/background/Motiv-BG-2.svg");
+    background-image: url("../public/assets/Motive/background/Motiv-p2.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,7 +10,7 @@
 
 .careerBG {
     background-image: url("../public/assets/Motive/background/Motiv-BG-2.svg");
-    background-image: url("../public/assets/Motive/background/Motiv-p2.png");
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -105,7 +105,7 @@
 /* Network Icons */
 
 .networkContainer {
-    min-height: 60vh;
+    min-height: 70vh;
 }
 
 .networkRow {
@@ -122,7 +122,7 @@
     background: #ffffff;
     box-shadow:  5px 5px 40px #ccc,
     -5px -5px 30px #ffffff;
-    height: clamp(35vh, 35vh, 50vh);
+    height: clamp(35vh, 40vh, 50vh);
     width: clamp(35vh, 10vw, 50vh);
     display: flex;
     flex-direction: column;
@@ -139,12 +139,12 @@
     position: relative;
     background: #ffffff;
     box-shadow: 6px 6px 39px #cccccc, -6px -6px 39px #ffffff;
-    min-width: clamp(50px, 90px, 125px);
-    min-height: clamp(50px, 90px, 125px) !important;
+    min-width: clamp(75px, 5vw, 125px);
+    min-height: clamp(75px, 5vw, 125px) !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0 10px 0;
+    margin: 10px 5px 10px 0;
 }
 
 .networkText {
@@ -152,11 +152,11 @@
     font-weight: 700;
     margin: 10px 0px 5px 0px;
     display: flex;
-    font-size: clamp(1.4rem, 1.4vw, 1.5vw) 
+    font-size: clamp(1.2rem, 1.4vw, 1.5vw) 
 }
 
 .networkSubtext {
-    font-size: clamp(.7rem, .8vw, .8vw);
+    font-size: clamp(.8rem, .8vw, .8vw);
     margin: 10px 20px 5px 20px;
     color: #263069;
 

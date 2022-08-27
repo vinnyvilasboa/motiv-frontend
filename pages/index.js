@@ -40,8 +40,8 @@ export default function Home() {
                                             require("../public/assets/Motive/icons/SignupIcon.svg").default
                                                 .src
                                         }
-                                        width={60}
-                                        height={60}
+                                        width={55}
+                                        height={55}
                                         className={styles.networkIcons}
                                     />
                                 </div>
@@ -58,8 +58,8 @@ export default function Home() {
                                             require("../public/assets/Motive/icons/SharePlayer.svg").default
                                                 .src
                                         }
-                                        width={60}
-                                        height={60}
+                                        width={55}
+                                        height={55}
                                         className={styles.networkIcons}
                                     />
                                 </div>
@@ -77,14 +77,14 @@ export default function Home() {
                                             require("../public/assets/Motive/icons/ConnectNCAA.svg").default
                                                 .src
                                         }
-                                        width={60}
-                                        height={60}
+                                        width={55}
+                                        height={55}
                                         className={styles.networkIcons}
                                     />
                                 </div>
                                 <h4 className={styles.networkText}>Connect with <br/> NCAA athletes & companies</h4>
                                 <p className={styles.networkSubtext}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien quam.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 </p>
                             </Col>
                         </Row>
