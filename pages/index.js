@@ -33,7 +33,7 @@ export default function Home() {
                     <Container fluid className={styles.networkContainer}>
                         <Row className={styles.networkRow} style={{marginTop:"20px"}}>
                             {/* 1 */}
-                            <Col xs={12} sm={8} md={4} lg={3} className={styles.networkCol}>
+                            <Col xs={8} sm={8} md={4} lg={3} className={styles.networkCol}>
                                 <div className={styles.networkIconsContainer}>
                                     <Image
                                         src={
@@ -51,7 +51,7 @@ export default function Home() {
                                 </p>
                             </Col>
                             {/* 2 */}
-                            <Col xs={12} sm={8} md={4} lg={3}  className={styles.networkCol}>
+                            <Col xs={8} sm={8} md={4} lg={3}  className={styles.networkCol}>
                                 <div className={styles.networkIconsContainer}>
                                     <Image
                                         src={
@@ -70,7 +70,7 @@ export default function Home() {
                                 </p>
                             </Col>
                             {/* 3 */}
-                            <Col xs={12} sm={8} md={4} lg={3}  className={styles.networkCol}>
+                            <Col xs={8} sm={8} md={4} lg={3}  className={styles.networkCol}>
                                 <div className={styles.networkIconsContainer}>
                                     <Image
                                         src={
@@ -82,7 +82,7 @@ export default function Home() {
                                         className={styles.networkIcons}
                                     />
                                 </div>
-                                <h4 className={styles.networkText}>Connect with other NCAA athletes and companies</h4>
+                                <h4 className={styles.networkText}>Connect with <br/> NCAA athletes & companies</h4>
                                 <p className={styles.networkSubtext}>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien quam.
                                 </p>

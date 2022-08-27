@@ -5,6 +5,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 }
 
 .careerBG {
@@ -96,9 +97,9 @@
         line-height: 2.5rem;
     }
 
-    .subtext {
+    /* .subtext {
         display: none;
-    }
+    } */
 }
 
 /* Network Icons */
@@ -112,7 +113,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
@@ -121,16 +122,16 @@
     background: #ffffff;
     box-shadow:  5px 5px 40px #ccc,
     -5px -5px 30px #ffffff;
-    height: clamp(35vh, 45vh, 50vh);
-    width: clamp(20vh, 40vh, 50vh);
+    height: clamp(35vh, 35vh, 50vh);
+    width: clamp(35vh, 10vw, 50vh);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    /* padding-bottom: 10px; */
     flex-shrink: 1;
-    margin: 10px 10px 50px 10px;
+    margin: 10px 15px 30px 15px;
 }
 
 .networkIconsContainer {
@@ -138,28 +139,25 @@
     position: relative;
     background: #ffffff;
     box-shadow: 6px 6px 39px #cccccc, -6px -6px 39px #ffffff;
-    min-width: clamp(50px, 100px, 125px);
-    min-height: clamp(50px, 100px, 125px);
-    flex-shrink: 2;
+    min-width: clamp(50px, 90px, 125px);
+    min-height: clamp(50px, 90px, 125px) !important;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px 0 10px 0;
 }
 
-.networkIconsContainer > .networkText {
-    font-size: clamp(12px, 1.5rem, 5rem);
+.networkText {
     color: #263069;
     font-weight: 700;
-    margin: 30px 15px 0px 15px;
+    margin: 10px 0px 5px 0px;
     display: flex;
-    /* flex-shrink: 1; */
-    line-height: 150%;
+    font-size: clamp(1.4rem, 1.4vw, 1.5vw) 
 }
 
 .networkSubtext {
-    font-size: clamp(12px, .9rem, 20px);
-    margin: 10px 40px 0 40px;
+    font-size: clamp(.7rem, .8vw, .8vw);
+    margin: 10px 20px 5px 20px;
     color: #263069;
 
 }
@@ -188,12 +186,6 @@
     margin: 0 auto;
 }
 
-/*SWITCH*/
-
-/* #custom-switch {
-    color: red;
-    padding: 10px;
-} */
 
 
 @media (max-width: 768px) {
@@ -233,18 +225,19 @@
         margin: 30px;
         
     }
-
+/* 
     .networkText {
-        font-size: 1.4rem;
+        font-size: 3vw;
         font-weight: 400;
-        margin: 20px;
 
 
     }
 
     .networkSubtext {
-        display: none;
-    }
+        font-size: 1.2rem;
+        margin: 20px;
+
+    } */
 }
 
 
