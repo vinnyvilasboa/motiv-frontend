@@ -132,9 +132,20 @@ export default function Home() {
 				{/* Player Profile Section */}
 				<div style={{ background: "white" }}>
 					<TwoColumn
-						leftColumnWidth={5}
+						leftColumnWidth={7}
 						leftColumn={
-							<TextColumn title="Player Profile">
+							<div style={{ position: "relative", width: "100%" }}>
+								<Image
+									src={PlayerPic}
+									alt="Player Profiles"
+									objectFit="contain"
+								/>
+							</div>
+						}
+						rightColumnWidth={5}
+						rightColumn={
+							
+                            <TextColumn title="Player Profile">
 								<p>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
 									maxime minus incidunt, deleniti non optio soluta suscipit modi
@@ -149,18 +160,8 @@ export default function Home() {
 								</p>
 							</TextColumn>
 						}
-						rightColumnWidth={7}
-						rightColumn={
-							<div style={{ position: "relative", width: "100%" }}>
-								<Image
-									src={PlayerPic}
-									alt="Player Profiles"
-									objectFit="contain"
-								/>
-							</div>
-						}
-						leftOrder={2}
-						rightOrder={1}
+						leftOrder={1}
+						rightOrder={2}
 					/>
 
 					{/* Message Section */}

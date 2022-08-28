@@ -174,7 +174,7 @@ const SignupCard = () => {
 									Already have a Motiv account? <Link href="/login">Login</Link>
 								</Form.Text> */}
                                 <Form.Text className="text-muted">
-									Motiv's <Link href="/privacy">Privacy Policy</Link>
+									By signing up, you agree to Motiv's <Link href="/privacy">Privacy Policy</Link>
 								</Form.Text>
 							</Col>
 							{/* <Col>
