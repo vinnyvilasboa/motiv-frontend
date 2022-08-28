@@ -6,7 +6,7 @@ function BlankFooter() {
   return (
     <Container fluid>
         <Row style={{minHeight:"40vh"}} >
-            <Col style={{background:'#243374'}}> hey hey ehye</Col>
+            <Col style={{background:'#243374'}}></Col>
         </Row>
     </Container>
   )

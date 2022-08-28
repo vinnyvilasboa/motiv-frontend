@@ -14,7 +14,7 @@ function privacy() {
                         <Col className="pt-5" style={{ display: "flex", justifyContent: "center" }}>
                             <h1>Motiv's Privacy Policy</h1>
                         </Col>
-                        <Col className="pt-5" style={{ padding: "0 50px 0 50px" }}>
+                        <Col className="pt-5" style={{ padding: "0 30px 0 30px" }}>
 
 {/* const Output = () => ( */}
   <>
@@ -14621,7 +14621,7 @@ function privacy() {
       </div>
     </div>
   </>
-{/* ); */}
+);
 
 
                         </Col>

@@ -17,7 +17,10 @@ const Footer = () => {
                 <Row >
                 <Col style={{display:'flex'}}>
 					<Nav.Link href="#home">
+                <a>
 						<FontAwesomeIcon icon={faFacebook} className={styles.icon} size="6x" />
+                        </a>
+
 					</Nav.Link>
 					<Nav.Link href="#home">
 						<FontAwesomeIcon icon={faInstagramSquare} className={styles.icon} size="6x" />

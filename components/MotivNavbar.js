@@ -7,7 +7,7 @@ export default function MotivNavbar() {
 	return (
 		<Navbar bg="light" expand="lg" collapseOnSelect>
 			<Container fluid>
-				<Navbar.Brand>
+				<Navbar.Brand style={{marginLeft:"10px"}}>
                 <Link href="/" passHref>
 					<Image 
                     className="motiv-logo"
