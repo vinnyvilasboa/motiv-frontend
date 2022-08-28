@@ -94,6 +94,7 @@ function privacy() {
                   href="https://joinmotiv.io"
                   target="_blank"
                   data-custom-class="link"
+                  rel="noreferrer"
                 >
                   https://joinmotiv.io
                 </a>
