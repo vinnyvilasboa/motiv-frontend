@@ -13,6 +13,8 @@ export function TextColumn({ title, children, style }) {
 export default function TwoColumn({
 	leftColumn,
 	rightColumn,
+	leftOrder = 1,
+	rightOrder = 2,
 	leftColumnWidth,
 	rightColumnWidth,
 	style,
@@ -20,11 +22,11 @@ export default function TwoColumn({
 }) {
 	return (
 		<Container fluid style={style} className={className}>
-			<Row>
-				<Col md={leftColumnWidth} xs={{ span: 12, order: 12 }}>
+			<Row style={{ alignItems: "center" }}>
+				<Col md={leftColumnWidth} xs={{ span: 12, order: leftOrder }}>
 					{leftColumn}
 				</Col>
-				<Col md={rightColumnWidth} xs={{ span: 12, order: 1 }}>
+				<Col md={rightColumnWidth} xs={{ span: 12, order: rightOrder }}>
 					{rightColumn}
 				</Col>
 			</Row>

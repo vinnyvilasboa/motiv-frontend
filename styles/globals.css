@@ -1,5 +1,5 @@
 /* Global */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@600;400;200&display=swap");
 
 html,
 body {
@@ -23,6 +23,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	color: #263069 !important;
 }
 
 a {
@@ -34,17 +35,10 @@ a {
 * {
 	box-sizing: border-box;
 	padding: 0;
-    font-family: 'Lora', serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Poppins', sans-serif;
-    
-    
- 
+	font-family: "Lora", serif;
+	font-family: "Playfair Display", serif;
+	font-family: "Poppins", sans-serif;
 }
-
-
-
-
 
 /* Career */
 

@@ -7,11 +7,10 @@ export default function MotivNavbar() {
 	return (
 		<Navbar bg="light" expand="lg" collapseOnSelect>
 			<Container fluid>
-
-				<Navbar.Brand style={{marginLeft:"10px"}}>
+				<Navbar.Brand style={{ marginLeft: "10px" }}>
 					<Link href="/" passHref>
-						{/* Wrap in a portal to avoid ref error */}
-						<>
+						{/* Wrap in an anchor to avoid ref error */}
+						<a>
 							<Image
 								className="motiv-logo"
 								src={MotivLogo}
@@ -19,7 +18,7 @@ export default function MotivNavbar() {
 								width={120}
 								height={25}
 							/>
-						</>
+						</a>
 					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle />

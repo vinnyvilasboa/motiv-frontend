@@ -1,35 +1,24 @@
-.textCenter{
-    text-align: center;
+.textCenter {
+	text-align: center;
 }
 
 .title {
-	font-size: 3.2rem;
-	font-weight: 400;
+	font-size: 75px;
+	font-weight: 600;
 	margin: 20px 10px 50px 10px;
 	color: #263069;
-
+	line-height: 125%;
 }
 
 .subtitle {
-	font-size: 1.5rem;
-	font-weight: 350;
+	font-size: 20px;
+	font-weight: 400;
 	color: #263069;
-    margin: 20px 10px 100px 10px;
-
+	margin: 20px 10px 100px 10px;
 }
 
 @media (max-width: 768px) {
-    .title {
-        font-size: 2.2rem;
-        font-weight: 400;
-        margin: 20px 10px 35px 10px;
-        color: #263069;
-        line-height:50px;
-    
-    }
-    .subtitle {
-        font-size: 1.5rem;
-        font-weight: 350;
-        color: #263069;
-    }
+	.title {
+		font-size: 35px;
+	}
 }
