@@ -8,14 +8,17 @@ export default function MotivNavbar() {
 		<Navbar bg="light" expand="lg" collapseOnSelect>
 			<Container fluid>
 				<Navbar.Brand>
-                <Link href="/" passHref>
-					<Image 
-                    className="motiv-logo"
-                    src={MotivLogo} 
-                    alt="Motiv Logo"
-                    width={120}
-					height={25}   
-                    />
+					<Link href="/" passHref>
+						{/* Wrap in a portal to avoid ref error */}
+						<>
+							<Image
+								className="motiv-logo"
+								src={MotivLogo}
+								alt="Motiv Logo"
+								width={120}
+								height={25}
+							/>
+						</>
 					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle />
@@ -26,9 +29,7 @@ export default function MotivNavbar() {
 					<Link href="/about" passHref>
 						<Nav.Link>About</Nav.Link>
 					</Link>
-					{/* <Link href="/login" passHref>
-						<Nav.Link>Login</Nav.Link>
-					</Link> */}
+
 					<Link href="/signup" passHref>
 						<Nav.Link>Signup</Nav.Link>
 					</Link>
