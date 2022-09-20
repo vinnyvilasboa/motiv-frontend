@@ -11,7 +11,7 @@
 }
 
 .subtitle {
-	font-size: 20px;
+	font-size: clamp(20px,1.7vw, 2.5vw);
 	font-weight: 400;
 	color: #263069;
 	margin: 20px 10px 100px 10px;

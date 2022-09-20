@@ -41,7 +41,7 @@ export default function Home() {
 			<main>
 				<Container fluid style={{ background: "white" }} className="pb-5">
 					<Row>
-						<Col md={{ offset: 1 }}>
+						<Col md={{ span:10, offset:1}} lg={10}>
 							<h1 className={textSectionStyles.title}>This is Motiv</h1>
 							<p className={textSectionStyles.subtitle}>Motiv is the new way for student athletes to find jobs. Our platform looks to demonstrate the unique skills and experiences student athletes bring to employers by providing a niche marketplace exclusive to student athletes. <br/> <br/>By highlighting this unique talent pool, Motiv aims to increase hiring efficiency by showing employers more than a resume.</p>
 						</Col>
@@ -55,18 +55,18 @@ export default function Home() {
 						</Col>
 					</Row>
 					<TwoColumn
-						leftColumnWidth={{ span: 6, offset: 1 }}
+						leftColumnWidth={{ span:10, offset: 1 }}
 						leftColumn={
 							<div className={styles.missionContainer}>
 								<h1 className={styles.missionTitle}>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-									a est maximus, semper libero quis.
+                                Helping student athletes find their second career.
+
 								</h1>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Suspendisse quis imperdiet urna.
+                                Our mission here at Motiv is to help student athletes find their next career. We aim to demonstrate equal opportunities for student athletes in the job marketplace by highlighting their unique skill sets and experiences. Motiv works closely with our corporate partners to enable their hiring departments to recruit student-athlete talent.
+
 								</p>
-								<p>
+								{/* <p>
 									Maecenas hendrerit pulvinar tristique. Etiam nec neque eu
 									dolor lacinia iaculis eget at turpis. Nullam rhoncus lectus at
 									leo iaculis, quis mollis quam rhoncus. Nulla lacinia
@@ -75,24 +75,24 @@ export default function Home() {
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 									Suspendisse quis imperdiet urna.
-								</p>
+								</p> */}
 							</div>
 						}
-						rightColumnWidth={4}
-						rightColumn={
-							<div className={styles.missionContainer}>
-								<h1 className={styles.missionTitle}>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-									a est maximus, semper libero quis.
-								</h1>
-								<p>
-									Maecenas hendrerit pulvinar tristique. Etiam nec neque eu
-									dolor lacinia iaculis eget at turpis. Nullam rhoncus lectus at
-									leo iaculis, quis mollis quam rhoncus. Nulla lacinia
-									condimentum malesuada.
-								</p>
-							</div>
-						}
+						// rightColumnWidth={4}
+						// rightColumn={
+						// 	<div className={styles.missionContainer}>
+						// 		<h1 className={styles.missionTitle}>
+						// 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+						// 			a est maximus, semper libero quis.
+						// 		</h1>
+						// 		<p>
+						// 			Maecenas hendrerit pulvinar tristique. Etiam nec neque eu
+						// 			dolor lacinia iaculis eget at turpis. Nullam rhoncus lectus at
+						// 			leo iaculis, quis mollis quam rhoncus. Nulla lacinia
+						// 			condimentum malesuada.
+						// 		</p>
+						// 	</div>
+						// }
 						className="mb-5"
 					/>
 					{/* <Container fluid>

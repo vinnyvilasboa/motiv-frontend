@@ -3,6 +3,7 @@
     justify-content:center;
 }
 .missionContainer {
+    height:clamp( 30vh);
 	font-size: 16px;
 	background: #f8f9fa;
 	padding: 50px;
@@ -10,7 +11,7 @@
 }
 
 .missionTitle {
-	font-size: 28px;
+	font-size: clamp(3vw);
 	font-weight: 400;
 	margin-bottom: 30px;
 	color: #5688f0;
@@ -19,6 +20,9 @@
 .missionContainer > p {
 	color: #263069;
 	margin-bottom: 15px;
+    font-size: clamp(12px, 1.8vw, 2vw);
+    line-height: 175%;
+
 }
 
 .statBannerRow {
