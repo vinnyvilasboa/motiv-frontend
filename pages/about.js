@@ -43,7 +43,7 @@ export default function Home() {
 					<Row>
 						<Col md={{ offset: 1 }}>
 							<h1 className={textSectionStyles.title}>This is Motiv</h1>
-							<p className={textSectionStyles.subtitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a est maximus, semper libero quis, finibus ligula. Vivamus accumsan leo in dui varius, ac sollicitudin felis rutrum. Pellentesque elementum iaculis sapien ac posuere.</p>
+							<p className={textSectionStyles.subtitle}>Motiv is the new way for student athletes to find jobs. Our platform looks to demonstrate the unique skills and experiences student athletes bring to employers by providing a niche marketplace exclusive to student athletes. <br/> <br/>By highlighting this unique talent pool, Motiv aims to increase hiring efficiency by showing employers more than a resume.</p>
 						</Col>
 					</Row>
 					<AboutIcons />
