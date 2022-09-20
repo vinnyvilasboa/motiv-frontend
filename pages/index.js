@@ -47,8 +47,7 @@ export default function Home() {
 									Sign up with your university email
 								</h4>
 								<p className={styles.networkSubtext}>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-									sapien quam.
+                                Motiv requires a university email address to ensure eligibility to our platform. No work experience is required. 
 								</p>
 							</Col>
 							{/* 2 */}
@@ -69,8 +68,8 @@ export default function Home() {
 									<br /> "Player Profile Card"
 								</h4>
 								<p className={styles.networkSubtext}>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-									sapien quam.
+                                Share your uniquely designed player profile card to grow your network. 
+
 								</p>
 							</Col>
 							{/* 3 */}
@@ -90,7 +89,8 @@ export default function Home() {
 									Connect with <br /> NCAA athletes & companies
 								</h4>
 								<p className={styles.networkSubtext}>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                By joining Motiv, you’ll be able to send and accept connection requests to fellow NCAA athletes, alums, and employers.
+
 								</p>
 							</Col>
 						</Row>
@@ -119,11 +119,9 @@ export default function Home() {
 						rightColumnWidth={4}
 						rightColumn={
 							<TextColumn title="Find your Next Career">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								<p>Find your next internship and full-time job with Motiv.</p>
 								<p>
-									Fugit maxime minus incidunt, deleniti non optio soluta
-									suscipit modi rerum quaerat unde. Quisquam fugiat vero id
-									voluptatem nisi quos officia recusandae!
+                                Motiv is partnering with universities and companies to provide student athletes the opportunity to land their next job. We put you in front of in-demand employers for every career path.
 								</p>
 							</TextColumn>
 						}
@@ -147,16 +145,12 @@ export default function Home() {
 							
                             <TextColumn title="Player Profile">
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-									maxime minus incidunt, deleniti non optio soluta suscipit modi
-									rerum quaerat unde. Quisquam fugiat vero id voluptatem nisi
-									quos officia recusandae!
+                                Start with the basics. Create a customized profile to increase your chances of being seen by employers. 
 								</p>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-									maxime minus incidunt, deleniti non optio soluta suscipit modi
-									rerum quaerat unde. Quisquam fugiat vero id voluptatem nisi
-									quos officia recusandae!
+                                We will give you recommendations on profile creation based on feedback from our corporate partners to best highlight your unique skills.
+
+
 								</p>
 							</TextColumn>
 						}
@@ -184,10 +178,8 @@ export default function Home() {
 						rightColumn={
 							<TextColumn title="Message">
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-									maxime minus incidunt, deleniti non optio soluta suscipit modi
-									rerum quaerat unde. Quisquam fugiat vero id voluptatem nisi
-									quos officia recusandae!
+                                Stay connected with our messaging board. We allow you to message and respond to employers and other student athletes. Keep track of all your conversations in a single place.
+
 								</p>
 							</TextColumn>
 						}

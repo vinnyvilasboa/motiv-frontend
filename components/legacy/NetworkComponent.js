@@ -48,7 +48,7 @@ const NetworkComponent = () => {
                             height={150}
                             className={styles.icons}/>
                              <h3 className={styles.iconText}>Sign Up <br/> With Your Univerisity Email</h3>
-                             <p className={styles.subtext} >lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipis</p>
+                             <p className={styles.subtext} >Motiv requires a university email address to ensure eligibility to our platform. No work experience is required. </p>
                         
                             
                         </Col>
