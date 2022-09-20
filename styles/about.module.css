@@ -11,7 +11,7 @@
 }
 
 .missionTitle {
-	font-size: clamp(3vw);
+	font-size: clamp(30px, 2.8vw, 3.5vw);
 	font-weight: 400;
 	margin-bottom: 30px;
 	color: #5688f0;
@@ -20,7 +20,7 @@
 .missionContainer > p {
 	color: #263069;
 	margin-bottom: 15px;
-    font-size: clamp(12px, 1.8vw, 2vw);
+    font-size: clamp(18px, 1.7vw, 2vw);
     line-height: 175%;
 
 }
