@@ -1,2 +1,2 @@
 ## Landing Page Wireframe
-![landing](./public/assets/Motive/wireframe/motiv-landing.png)
+![landing](./public/assets/Motive/wireframe/WIREFRAME-MOTIV.png)
