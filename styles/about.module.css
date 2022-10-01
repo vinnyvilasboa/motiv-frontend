@@ -39,11 +39,11 @@
 }
 
 .statBannerCol > span > h1 {
-	font-size: 80px;
+	font-size: clamp(2.2vw,5.2vw, 80px);
 }
 
 .statBannerCol > span > p {
-	font-size: 20px;
+	font-size: clamp(2.2vw,4vw, 80px);
 	text-transform: uppercase;
 }
 

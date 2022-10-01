@@ -19,6 +19,7 @@ function PersonCard({ src, name, description }) {
 				border: 0,
 				color: "#263069",
 				marginBottom: 40,
+                minHeight: "50vh"
 			}}
 		>
 			<Card.Img variant="top" src={src} />
@@ -141,8 +142,11 @@ export default function Home() {
 								src={
 									require("../public/assets/Motive/img/Team 1.png").default.src
 								}
-								name="Danny Romanello"
-								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
+								name="Danny Romanello,  Founder & CEO"
+								description="       
+                             Graduate of the University of Connecticut and holds a B.A. in Economics. He played 2 years of Division 1 football at UCONN from 2016-2018. 
+
+Daniel currently is an Enterprise Account Manager for Cloudflare where he manages a strategic book of business with a focus in R&D accounts. He has been at Cloudflare for a year and his experience in the Cybersecurity industry extends over 2 and half years."
 								style={{ margin: "10px" }}
 
 							/>
@@ -152,8 +156,10 @@ export default function Home() {
 								src={
 									require("../public/assets/Motive/img/Team 2.png").default.src
 								}
-								name="Andrea Lopez"
-								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
+								name="Andrea Lopez, Co-founder"
+								description="Graduate of the University of Connecticut and holds a B.A in Organizational Development and Human Resources. 
+
+Andrea is a Senior Learning Operations Partner and is responsible for supporting the Employee Development Team in designing internal brand initiatives and partnering with SMEs and stakeholders across Indeed to curate powerful branding and storytelling around our programs, products, and services. "
 							/>
 						</Col>
 					</Row>
@@ -163,8 +169,10 @@ export default function Home() {
 								src={
 									require("../public/assets/Motive/img/Team 3.png").default.src
 								}
-								name="Jane Doe"
-								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
+								name="Santiago Muriel, Co-founder"
+								description="Graduate of the University of Connecticut and holds a B.A. in Economics & International relations, with a Spanish minor (2017). He played 5 years of Division 1 soccer for UConn from 2013-2017, and helped lead the team to an AAC league championship, an Elite 8 appearance and multiple NCAA tournament runs.
+
+Associate Wealth Management Advisor for a financial planning practice at Northwestern Mutual. He’s been in business 4 years, progressing roles from financial representative, to advisor, and into his current role as a planner."
 							/>
 						</Col>
 						<Col xs={12} md={6} className={styles.personCol}>
@@ -173,7 +181,7 @@ export default function Home() {
 									require("../public/assets/Motive/img/Team 4.png").default.src
 								}
 								name="John Doe"
-								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi."
+								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Aliquam erat volutpat. Suspendisse eget bibendum mi.Aliquam erat volutpat. Suspendisse eget bibendum mi"
 							/>
 						</Col>
 					</Row>
