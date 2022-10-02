@@ -137,10 +137,10 @@ export default function Home() {
 				/>
 				<Container fluid style={{ marginBottom: 100, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
 					<Row  >
-						<Col xs={12} md={6} className={styles.personCol}>
+						<Col xs={12} md={4} className={styles.personCol}>
 							<PersonCard
 								src={
-									require("../public/assets/Motive/img/Team 1.png").default.src
+									require("../public/assets/Motive/img/Danny-no-bg.png").default.src
 								}
 								name="Danny Romanello,  Founder & CEO"
 								description="       
@@ -151,10 +151,10 @@ Daniel currently is an Enterprise Account Manager for Cloudflare where he manage
 
 							/>
 						</Col>
-						<Col xs={12} md={6} className={styles.personCol}>
+						<Col xs={12} md={4} className={styles.personCol}>
 							<PersonCard
 								src={
-									require("../public/assets/Motive/img/Team 2.png").default.src
+									require("../public/assets/Motive/img/Andrea-no-bg.png").default.src
 								}
 								name="Andrea Lopez, Co-founder"
 								description="Graduate of the University of Connecticut and holds a B.A in Organizational Development and Human Resources. 
@@ -162,12 +162,10 @@ Daniel currently is an Enterprise Account Manager for Cloudflare where he manage
 Andrea is a Senior Learning Operations Partner and is responsible for supporting the Employee Development Team in designing internal brand initiatives and partnering with SMEs and stakeholders across Indeed to curate powerful branding and storytelling around our programs, products, and services. "
 							/>
 						</Col>
-					</Row>
-					<Row style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-						<Col xs={12} md={6} className={styles.personCol}>
+                        <Col xs={12} md={4} className={styles.personCol}>
 							<PersonCard
 								src={
-									require("../public/assets/Motive/img/Team 3.png").default.src
+									require("../public/assets/Motive/img/Santi-no-bg.png").default.src
 								}
 								name="Santiago Muriel, Co-founder"
 								description="Graduate of the University of Connecticut and holds a B.A. in Economics & International relations, with a Spanish minor (2017). He played 5 years of Division 1 soccer for UConn from 2013-2017, and helped lead the team to an AAC league championship, an Elite 8 appearance and multiple NCAA tournament runs.
@@ -175,15 +173,28 @@ Andrea is a Senior Learning Operations Partner and is responsible for supporting
 Associate Wealth Management Advisor for a financial planning practice at Northwestern Mutual. He’s been in business 4 years, progressing roles from financial representative, to advisor, and into his current role as a planner."
 							/>
 						</Col>
-						<Col xs={12} md={6} className={styles.personCol}>
+					</Row>
+					<Row style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+						{/* <Col xs={12} md={6} className={styles.personCol}>
 							<PersonCard
 								src={
-									require("../public/assets/Motive/img/Team 4.png").default.src
+									require("../public/assets/Motive/img/Santi-no-bg.png").default.src
+								}
+								name="Santiago Muriel, Co-founder"
+								description="Graduate of the University of Connecticut and holds a B.A. in Economics & International relations, with a Spanish minor (2017). He played 5 years of Division 1 soccer for UConn from 2013-2017, and helped lead the team to an AAC league championship, an Elite 8 appearance and multiple NCAA tournament runs.
+
+Associate Wealth Management Advisor for a financial planning practice at Northwestern Mutual. He’s been in business 4 years, progressing roles from financial representative, to advisor, and into his current role as a planner."
+							/>
+						</Col> */}
+						{/* <Col xs={12} md={6} className={styles.personCol}>
+							<PersonCard
+								src={
+									require("../public/assets/Motive/img/Santi-no-bg.png").default.src
 								}
 								name="John Doe"
 								description="Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Ut cursus pulvinar leo ut sollicitudin. Aliquam erat volutpat. Suspendisse eget bibendum mi.Aliquam erat volutpat. Suspendisse eget bibendum mi.Aliquam erat volutpat. Suspendisse eget bibendum mi"
 							/>
-						</Col>
+						</Col> */}
 					</Row>
 				</Container>
 				{/* <AboutIcons /> */}
