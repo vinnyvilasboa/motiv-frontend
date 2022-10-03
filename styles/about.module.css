@@ -1,6 +1,7 @@
 .personCol{
     display:flex;
     justify-content:center;
+    font-size: clamp(12px, 1.2vw, 1.5vw);
 }
 .missionContainer {
     height:clamp( 30vh);

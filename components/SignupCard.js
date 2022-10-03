@@ -113,7 +113,7 @@ const SignupCard = () => {
 										<Form.Label>Your Full Name</Form.Label>
 										<Form.Control
 											type="text"
-											placeholder="Lebron James"
+											placeholder="John Doe"
 											value={name}
 											onChange={(e) => setName(e.target.value)}
 										/>

@@ -133,7 +133,7 @@ export default function Home() {
 				</Container>
 				<TextSection
 					title="Meet the team"
-					subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a est maximus, semper libero quis, finibus ligula."
+					
 				/>
 				<Container fluid style={{ marginBottom: 100, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
 					<Row  >
