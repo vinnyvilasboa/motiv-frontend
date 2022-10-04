@@ -137,7 +137,7 @@ export default function Home() {
 				/>
 				<Container fluid style={{ marginBottom: 100, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
 					<Row  >
-						<Col xs={12} md={4} className={styles.personCol}>
+						<Col xs={12} md={4} className={styles.persofnCol}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Danny-no-bg.png").default.src
@@ -175,6 +175,9 @@ Associate Wealth Management Advisor for a financial planning practice at Northwe
 						</Col>
 					</Row>
 					<Row style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+
+                    {/* Vinny : Add more team members here*/}
+                    
 						{/* <Col xs={12} md={6} className={styles.personCol}>
 							<PersonCard
 								src={
