@@ -15,7 +15,7 @@ function PersonCard({ src, name, description }) {
 			style={{
 				width: 360,
 				borderRadius: 20,
-				padding: 30,
+				padding: 20,
 				border: 0,
 				color: "#263069",
 				marginBottom: 40,
@@ -23,8 +23,8 @@ function PersonCard({ src, name, description }) {
 			}}
 		>
 			<Card.Img variant="top" src={src} />
-			<Card.Body >
-				<Card.Title style={{ paddingTop: 20, paddingBottom: 20 }}>
+			<Card.Body style={{ display: "flex", justifyContent: "center",alignItems:"center"}}>
+				<Card.Title style={{ fontSize: "1.4rem", textAlign: "center"}}>
 					{name}
 				</Card.Title>
 				<Card.Text style={{ fontSize: 14, display: "flex", justifyContent: "space-between"}}>{description}</Card.Text>
@@ -70,6 +70,8 @@ export default function Home() {
 								
 							</div>
 						}
+                        /* >> NOTES: Column split unnecessary here but in the future can be readded*/
+
 						// rightColumnWidth={4}
 						// rightColumn={
 						// 	<div className={styles.missionContainer}>
@@ -87,7 +89,11 @@ export default function Home() {
 						// }
 						className="mb-5"
 					/>
-					{/* <Container fluid>
+                                          
+
+					{/* 
+                    
+                    <Container fluid>
 						<Row className={styles.statBannerRow}>
 							<Col
 								xs={4}
@@ -122,6 +128,7 @@ export default function Home() {
 						</Row>
 					</Container> */}
 				</Container>
+
 				<TextSection
 					title="Meet the team"
 					
@@ -133,7 +140,7 @@ export default function Home() {
 								src={
 									require("../public/assets/Motive/img/Danny-no-bg.png").default.src
 								}
-								name="Danny Romanello,  Founder & CEO"
+								name="Danny Romanello - Founder & CEO"
 // 								description="       
 //                              Graduate of the University of Connecticut and holds a B.A. in Economics. He played 2 years of Division 1 football at UCONN from 2016-2018. 
 
@@ -147,7 +154,7 @@ export default function Home() {
 								src={
 									require("../public/assets/Motive/img/Andrea-no-bg.png").default.src
 								}
-								name="Andrea Lopez, Advisor"
+								name="Andrea Lopez - Advisor"
 // 								description="Graduate of the University of Connecticut and holds a B.A in Organizational Development and Human Resources. 
 
 // Andrea is a Senior Learning Operations Partner and is responsible for supporting the Employee Development Team in designing internal brand initiatives and partnering with SMEs and stakeholders across Indeed to curate powerful branding and storytelling around our programs, products, and services. "
@@ -158,7 +165,7 @@ export default function Home() {
 								src={
 									require("../public/assets/Motive/img/Santi-no-bg.png").default.src
 								}
-								name="Santiago Muriel, Advisor"
+								name="Santiago Muriel - Advisor"
 // 								description="Graduate of the University of Connecticut and holds a B.A. in Economics & International relations(2017). He played 5 years of Division 1 soccer for UConn from 2013-2017, and helped lead the team to an AAC league championship.
 
 // Associate Wealth Management Advisor for a financial planning practice at Northwestern Mutual, progressing roles from financial representative, to advisor, and into his current role as a planner."
