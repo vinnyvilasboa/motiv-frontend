@@ -23,11 +23,11 @@ function PersonCard({ src, name, description }) {
 			}}
 		>
 			<Card.Img variant="top" src={src} />
-			<Card.Body>
+			<Card.Body >
 				<Card.Title style={{ paddingTop: 20, paddingBottom: 20 }}>
 					{name}
 				</Card.Title>
-				<Card.Text style={{ fontSize: 14 }}>{description}</Card.Text>
+				<Card.Text style={{ fontSize: 14, display: "flex", justifyContent: "space-between"}}>{description}</Card.Text>
 			</Card.Body>
 		</Card>
 	);
@@ -67,16 +67,7 @@ export default function Home() {
                                 Our mission here at Motiv is to help student athletes find their next career. We aim to demonstrate equal opportunities for student athletes in the job marketplace by highlighting their unique skill sets and experiences. Motiv works closely with our corporate partners to enable their hiring departments to recruit student-athlete talent.
 
 								</p>
-								{/* <p>
-									Maecenas hendrerit pulvinar tristique. Etiam nec neque eu
-									dolor lacinia iaculis eget at turpis. Nullam rhoncus lectus at
-									leo iaculis, quis mollis quam rhoncus. Nulla lacinia
-									condimentum malesuada.
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Suspendisse quis imperdiet urna.
-								</p> */}
+								
 							</div>
 						}
 						// rightColumnWidth={4}
@@ -137,16 +128,16 @@ export default function Home() {
 				/>
 				<Container fluid style={{ marginBottom: 100, width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
 					<Row  >
-						<Col xs={12} md={4} className={styles.persofnCol}>
+						<Col xs={12} md={4} className={styles.personCol}>
 							<PersonCard
 								src={
 									require("../public/assets/Motive/img/Danny-no-bg.png").default.src
 								}
 								name="Danny Romanello,  Founder & CEO"
-								description="       
-                             Graduate of the University of Connecticut and holds a B.A. in Economics. He played 2 years of Division 1 football at UCONN from 2016-2018. 
+// 								description="       
+//                              Graduate of the University of Connecticut and holds a B.A. in Economics. He played 2 years of Division 1 football at UCONN from 2016-2018. 
 
-Daniel currently is an Enterprise Account Manager for Cloudflare where he manages a strategic book of business with a focus in R&D accounts. He has been at Cloudflare for a year and his experience in the Cybersecurity industry extends over 2 and half years."
+// Daniel currently is an Enterprise Account Manager for Cloudflare where he manages a strategic book of business with a focus in R&D accounts. He has been at Cloudflare for a year and his experience in the Cybersecurity industry extends over 2 and half years."
 								style={{ margin: "10px" }}
 
 							/>
@@ -157,9 +148,9 @@ Daniel currently is an Enterprise Account Manager for Cloudflare where he manage
 									require("../public/assets/Motive/img/Andrea-no-bg.png").default.src
 								}
 								name="Andrea Lopez, Advisor"
-								description="Graduate of the University of Connecticut and holds a B.A in Organizational Development and Human Resources. 
+// 								description="Graduate of the University of Connecticut and holds a B.A in Organizational Development and Human Resources. 
 
-Andrea is a Senior Learning Operations Partner and is responsible for supporting the Employee Development Team in designing internal brand initiatives and partnering with SMEs and stakeholders across Indeed to curate powerful branding and storytelling around our programs, products, and services. "
+// Andrea is a Senior Learning Operations Partner and is responsible for supporting the Employee Development Team in designing internal brand initiatives and partnering with SMEs and stakeholders across Indeed to curate powerful branding and storytelling around our programs, products, and services. "
 							/>
 						</Col>
                         <Col xs={12} md={4} className={styles.personCol}>
@@ -168,9 +159,9 @@ Andrea is a Senior Learning Operations Partner and is responsible for supporting
 									require("../public/assets/Motive/img/Santi-no-bg.png").default.src
 								}
 								name="Santiago Muriel, Advisor"
-								description="Graduate of the University of Connecticut and holds a B.A. in Economics & International relations, with a Spanish minor (2017). He played 5 years of Division 1 soccer for UConn from A2013-2017, and helped lead the team to an AAC league championship, an Elite 8 appearance and multiple NCAA tournament runs.
+// 								description="Graduate of the University of Connecticut and holds a B.A. in Economics & International relations(2017). He played 5 years of Division 1 soccer for UConn from 2013-2017, and helped lead the team to an AAC league championship.
 
-Associate Wealth Management Advisor for a financial planning practice at Northwestern Mutual. He’s been in business 4 years, progressing roles from financial representative, to advisor, and into his current role as a planner."
+// Associate Wealth Management Advisor for a financial planning practice at Northwestern Mutual, progressing roles from financial representative, to advisor, and into his current role as a planner."
 							/>
 						</Col>
 					</Row>
