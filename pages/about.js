@@ -156,7 +156,7 @@ Daniel currently is an Enterprise Account Manager for Cloudflare where he manage
 								src={
 									require("../public/assets/Motive/img/Andrea-no-bg.png").default.src
 								}
-								name="Andrea Lopez, Co-founder"
+								name="Andrea Lopez, Advisor"
 								description="Graduate of the University of Connecticut and holds a B.A in Organizational Development and Human Resources. 
 
 Andrea is a Senior Learning Operations Partner and is responsible for supporting the Employee Development Team in designing internal brand initiatives and partnering with SMEs and stakeholders across Indeed to curate powerful branding and storytelling around our programs, products, and services. "
@@ -167,8 +167,8 @@ Andrea is a Senior Learning Operations Partner and is responsible for supporting
 								src={
 									require("../public/assets/Motive/img/Santi-no-bg.png").default.src
 								}
-								name="Santiago Muriel, Co-founder"
-								description="Graduate of the University of Connecticut and holds a B.A. in Economics & International relations, with a Spanish minor (2017). He played 5 years of Division 1 soccer for UConn from 2013-2017, and helped lead the team to an AAC league championship, an Elite 8 appearance and multiple NCAA tournament runs.
+								name="Santiago Muriel, Advisor"
+								description="Graduate of the University of Connecticut and holds a B.A. in Economics & International relations, with a Spanish minor (2017). He played 5 years of Division 1 soccer for UConn from A2013-2017, and helped lead the team to an AAC league championship, an Elite 8 appearance and multiple NCAA tournament runs.
 
 Associate Wealth Management Advisor for a financial planning practice at Northwestern Mutual. He’s been in business 4 years, progressing roles from financial representative, to advisor, and into his current role as a planner."
 							/>
